@@ -41,7 +41,7 @@ class Home extends Component {
             <div id="fixedWidth">
               <div id="window">
                 <div id="textWindow">
-                  <h1> Recycle Your Electronics, Batteries, And Paint In Canada </h1>
+                  <h1> Recycle Your Electronics, Batteries, And Paint In Indonesia </h1>
                   <h1> </h1>
                 </div>
 
