@@ -11,9 +11,9 @@ import {
 // import { Switch, Route } from 'react-router-dom';
 
 import Home from "./Home";
-import Ewaste from "./Ewaste";
-import Battery from "./Battery";
-import Paint from "./Paint";
+import Ewaste from "./TrashGuide";
+import Battery from "./LocateUs";
+import Paint from "./Reward";
 import About from "./About";
 import Terms from "./Terms";
 
@@ -37,9 +37,10 @@ class App extends Component {
         {/* <Route path = "/Paint" component={() => (<Paint page={3} />)} />
                   <Route path = "/About" component={() => (<About page={4} />)} />
                   <Route path = "/Terms" component={() => (<Ewaste page={5} />)} /> */}
+        
         <Route path="/" component={Home} />
-        <Route path="/battery" component={Battery} />
-        <Route path="/ewaste" component={Ewaste} />
+        <Route path="/locateus" component={Battery} />
+        <Route path="/trashguide" component={Ewaste} />
         <Route path="/paint" component={Paint} />
         <Route path="/about" component={About} />
         <Route path="/terms_privacy" component={Terms} />

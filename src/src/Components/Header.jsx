@@ -29,17 +29,17 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/Ewaste">
+            <Link to="/trashguide">
               <span>Trash Guide</span>
             </Link>
           </li>
           <li>
-            <Link to="/Battery">
+            <Link to="/locateus">
               <span>Locate Us</span>
             </Link>
           </li>
           <li>
-            <Link to="/Paint">
+            <Link to="/reward">
               <span>Reward</span>
             </Link>
           </li>
@@ -59,17 +59,17 @@ class Header extends Component {
             </Link>
           </li>
           <li className="active">
-            <Link to="/Ewaste">
+            <Link to="/trashguide">
               <span>Trash Guide</span>
             </Link>
           </li>
           <li>
-            <Link to="/Battery">
+            <Link to="/locateus">
               <span>Locate Us</span>
             </Link>
           </li>
           <li>
-            <Link to="/Paint">
+            <Link to="/reward">
               <span>Reward</span>
             </Link>
           </li>
@@ -89,17 +89,17 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/Ewaste">
+            <Link to="/trashguide">
               <span>Trash Guide</span>
             </Link>
           </li>
           <li className="active">
-            <Link to="/Battery">
+            <Link to="/locateus">
               <span>Locate Us</span>
             </Link>
           </li>
           <li>
-            <Link to="/Paint">
+            <Link to="/reward">
               <span>Reward</span>
             </Link>
           </li>
@@ -119,17 +119,17 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/Ewaste">
+            <Link to="/trashguide">
               <span>Trash Guide</span>
             </Link>
           </li>
           <li>
-            <Link to="/Battery">
+            <Link to="/locateus">
               <span>Locate Us</span>
             </Link>
           </li>
           <li className="active">
-            <Link to="/Paint">
+            <Link to="/reward">
               <span>Reward</span>
             </Link>
           </li>
@@ -149,17 +149,17 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/Ewaste">
+            <Link to="/trashguide">
               <span>Trash Guide</span>
             </Link>
           </li>
           <li>
-            <Link to="/Battery">
+            <Link to="/locateus">
               <span>Locate Us</span>
             </Link>
           </li>
           <li>
-            <Link to="/Paint">
+            <Link to="/reward">
               <span>Reward</span>
             </Link>
           </li>
@@ -179,17 +179,17 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/Ewaste">
+            <Link to="/trashguide">
               <span>Trash Guide</span>
             </Link>
           </li>
           <li>
-            <Link to="/Battery">
+            <Link to="/locateus">
               <span>Locate Us</span>
             </Link>
           </li>
           <li>
-            <Link to="/Paint">
+            <Link to="/reward">
               <span>Reward</span>
             </Link>
           </li>
@@ -239,11 +239,11 @@ class Header extends Component {
 
           <div id="cssmenu">
             {/* <Link to='/'><span>Home</span></Link>&nbsp;
-            <Link to='/battery'><span>Home</span></Link> */}
+            <Link to='/locateus'><span>Home</span></Link> */}
 
-            {/* <li><Link to='/Ewaste'><span>Ewaste</span></Link>&nbsp</li>
-            <li><Link to='/Battery'><span>Batteries</span></Link>&nbsp</li>
-            <li><Link to='/Paint'><span>Paint</span></Link>&nbsp</li>
+            {/* <li><Link to='/trashguide'><span>trashguide</span></Link>&nbsp</li>
+            <li><Link to='/locateus'><span>Batteries</span></Link>&nbsp</li>
+            <li><Link to='/Reward'><span>Reward</span></Link>&nbsp</li>
             <li><Link to='/About'><span>About</span></Link>&nbsp</li> */}
 
             {this.chooseHeader()}
