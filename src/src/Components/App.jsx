@@ -1,3 +1,4 @@
+"use client"
 import React, { Component } from "react";
 
 import {
@@ -11,11 +12,15 @@ import {
 // import { Switch, Route } from 'react-router-dom';
 
 import Home from "./Home";
-import Ewaste from "./TrashGuide";
+import TrashGuide from "./TrashGuide";
 import Battery from "./LocateUs";
 import Paint from "./Reward";
 import About from "./About";
 import Terms from "./Terms";
+import test from "../Components/TrashGuide/test";
+import '../css/styles.css';
+
+
 
 // App.jsx is not 'actually necessary' but it follows accepted react architecture by always having an App.jsx main renderer
 class App extends Component {
@@ -37,13 +42,13 @@ class App extends Component {
         {/* <Route path = "/Paint" component={() => (<Paint page={3} />)} />
                   <Route path = "/About" component={() => (<About page={4} />)} />
                   <Route path = "/Terms" component={() => (<Ewaste page={5} />)} /> */}
-        
         <Route path="/" component={Home} />
         <Route path="/locateus" component={Battery} />
-        <Route path="/trashguide" component={Ewaste} />
+        <Route path="/trashguide" component={TrashGuide} />
         <Route path="/paint" component={Paint} />
         <Route path="/about" component={About} />
         <Route path="/terms_privacy" component={Terms} />
+        <Route path="/test" component = {test}/>
       </Router>
     );
   }

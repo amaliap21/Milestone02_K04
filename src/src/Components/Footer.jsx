@@ -51,9 +51,6 @@ class Footer extends Component {
 
                       <p><Link to='/terms_privacy'><span style = {{color:'#FFF'}}>Terms of Use and Privacy Policy</span></Link></p>
 
-                  <a href='https://github.com/EdwaRen/Recycle_Can_Website'><img src={GitHubLogo} className = {css(styles.gitHubLogoStyle)} />
-
-                  </a>
 
               </div>
           </div>
