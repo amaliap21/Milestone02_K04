@@ -13,11 +13,20 @@ import {
 
 import Home from "./Home";
 import TrashGuide from "./TrashGuide";
-import Battery from "./LocateUs";
-import Paint from "./Reward";
+import LocateUs from "./LocateUs";
+import Reward from "./Reward";
 import About from "./About";
 import Terms from "./Terms";
-import test from "../Components/TrashGuide/test";
+import TrashGuideComponents from "../Components/TrashGuide/TrashGuideComponents";
+
+
+// article routes
+import article1 from "./TrashGuide/Articles/Article1";
+import article2 from "./TrashGuide/Articles/Article2";
+import article3 from "./TrashGuide/Articles/Article3";
+import article4 from "./TrashGuide/Articles/Article4";
+import article5 from "./TrashGuide/Articles/Article5";
+import article6 from "./TrashGuide/Articles/Article6";
 import '../css/styles.css';
 
 
@@ -43,12 +52,18 @@ class App extends Component {
                   <Route path = "/About" component={() => (<About page={4} />)} />
                   <Route path = "/Terms" component={() => (<Ewaste page={5} />)} /> */}
         <Route path="/" component={Home} />
-        <Route path="/locateus" component={Battery} />
+        <Route path="/locateus" component={LocateUs} />
         <Route path="/trashguide" component={TrashGuide} />
-        <Route path="/paint" component={Paint} />
+        <Route path="/Reward" component={Reward} />
         <Route path="/about" component={About} />
         <Route path="/terms_privacy" component={Terms} />
-        <Route path="/test" component = {test}/>
+        <Route path="/TrashGuideComponents" component = {TrashGuideComponents}/>
+        <Route path= "/Article1" component={article1} />
+        <Route path= "/Article2" component={article2} />
+        <Route path= "/Article3" component={article3} />
+        <Route path= "/Article4" component={article4} />
+        <Route path= "/Article5" component={article5} />
+        <Route path= "/Article6" component={article6} />
       </Router>
     );
   }

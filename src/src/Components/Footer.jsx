@@ -51,7 +51,6 @@ class Footer extends Component {
 
                       <p><Link to='/terms_privacy'><span style = {{color:'#FFF'}}>Terms of Use and Privacy Policy</span></Link></p>
 
-
               </div>
           </div>
       </div>

@@ -18,7 +18,7 @@ class Header extends Component {
   constructor() {
     super();
   }
-
+  
   chooseHeader() {
     if (this.props.page == 0) {
       return (
