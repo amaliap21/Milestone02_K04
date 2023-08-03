@@ -44,7 +44,8 @@ const TrashGuide = (props: Props) => {
               </h1>
               <p style = {{textAlign:'left',paddingLeft:'60px' , paddingRight:'60px'}}>Sampah merupakan salah satu masalah yang pastinya dialami oleh setiap negara di seluruh dunia, salah satunya Indonesia. Indonesia belum dapat menemukan cara yang efektif untuk mengurangi penumpukan sampah. Penyebab utama dari penumpukan sampah adalah jumlah penduduk yang semakin padat tetapi tempat untuk menampung sampah kurang. Masyarakatnya juga kurang sadar bahwa masalah tentang sampah ini cukup mengkhawatirkan karena kurangnya edukasi tentang bagaimana cara untuk memilah sampah dengan baik.
                 Maka dari itu, melalui program ini kami akan menjelaskan tentang apa saja macam-macam dari sampah sehingga masyarakat bisa lebih sadar dan harapannya permasalahan tentang sampah ini bisa menjadi lebih baik kedepannya.
-                <Link to="/TrashGuideComponents"><span> Klik Link Berikut</span></Link> <br/>
+                <br />
+                <br />
                 <Link to = "/Article1">Article 1</Link><br/>
                 <Link to = "/Article2">Article 2</Link><br/>
                 <Link to = "/Article3">Article 3</Link><br/>
