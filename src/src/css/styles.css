@@ -785,6 +785,15 @@ h2 span {
     margin-right: 200px;
     background-color: #EEEEEE;
 }
+#descnj {
+    float: left;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 200px; 
+    margin-right: 200px;
+    background-color: #EEEEEE;
+}
 
 #desclong {
     float: left;
@@ -1066,6 +1075,16 @@ h2 span {
     position: relative;
     padding-left: 60px;
     padding-right: 60px;
+    font-family: RalewayBld, Sans-Serif;
+        color: #5c5c5c;
+
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+}
+#headernj {
+    margin-top: auto;
+    
     font-family: RalewayBld, Sans-Serif;
         color: #5c5c5c;
 
