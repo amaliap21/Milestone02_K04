@@ -17,7 +17,7 @@ const article3 = (props: Props) => {
           <div id="fixedwidth">
             <div id="header32">  
               <h1 id = "desctitle">
-                Article2
+                Article3
               </h1>
             </div>
 

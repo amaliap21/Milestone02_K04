@@ -17,7 +17,6 @@ import LocateUs from "./LocateUs";
 import Reward from "./Reward";
 import About from "./About";
 import Terms from "./Terms";
-import TrashGuideComponents from "../Components/TrashGuide/TrashGuideComponents";
 
 
 // article routes
@@ -57,7 +56,6 @@ class App extends Component {
         <Route path="/Reward" component={Reward} />
         <Route path="/about" component={About} />
         <Route path="/terms_privacy" component={Terms} />
-        <Route path="/TrashGuideComponents" component = {TrashGuideComponents}/>
         <Route path= "/Article1" component={article1} />
         <Route path= "/Article2" component={article2} />
         <Route path= "/Article3" component={article3} />
