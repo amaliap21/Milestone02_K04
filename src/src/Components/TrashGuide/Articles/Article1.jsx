@@ -10,7 +10,7 @@ const article1 = (props: Props) => {
   return (
     <div>
       <Header page = {1}/>
-      <div id="overviewAbout" style = {{paddingTop: '100px'}}>
+      <div id="overviewArticle" style = {{paddingTop: '100px'}}>
           <div id="headerfill">
           </div>
 
@@ -20,6 +20,9 @@ const article1 = (props: Props) => {
               Tingkat Daur Ulang Sampah Plastik di Indonesia Masih Rendah
               </h1>
             </div>
+          </div>
+
+          <div className="fixedwidth">
 
             <div id="headernj">
               <p id="descnj">
@@ -63,9 +66,10 @@ const article1 = (props: Props) => {
           </div>
           <Footer/>
       </div>
-      
+        
       
     </div>
+    
   )
 }
 

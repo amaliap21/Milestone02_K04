@@ -10,7 +10,7 @@ const article2 = (props: Props) => {
   return (
     <div>
       <Header page = {1}/>
-      <div id="overviewAbout" style = {{paddingTop: '100px'}}>
+      <div id="overviewArticle2" style = {{paddingTop: '100px'}}>
           <div id="headerfill">
           </div>
 
@@ -22,7 +22,7 @@ const article2 = (props: Props) => {
             </div>
 
           <div id="header32">
-              <p id="desc1">
+              <p id="descib">
                 Gaya hidup modern mendorong manusia untuk terus menerus membutuhkan banyak barang. Kita nggak sadar kalau membeli barang sama saja menghasilkan sampah, apalagi barang sekali pakai. Aktivitas manusia semakin beragam setiap harinya, dan semakin banyak pula barang dan produk yang dibeli sehingga sampah yang dihasilkan sudah melebihi dari kemampuan alam untuk menyerapnya.
                 <br/><br/>
                 Kita lupa bahwa lautan dan sungai sudah tercemar, serta miliaran ton tumpukan sampah yang dihasilkan manusia tidak bisa terurai atau didaur ulang. Tempat Pembuangan Akhir (TPA) sudah meluap dan tidak lagi bisa menampung timbunan sampah. Longsor sampah pernah terjadi di TPA Leuwigajah, Cimahi, Jawa Barat, pada tahun 2005. Sebanyak 143 orang terkubur dalam longsor sampah dan tidak kurang dari 86 rumah lenyap ditelan sampah.
