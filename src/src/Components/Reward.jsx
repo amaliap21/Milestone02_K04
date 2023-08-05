@@ -115,9 +115,9 @@ class FormConversionRate extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     this.submittedWeight = {
-      organic: this.state.organicWeight,
-      metal: this.state.metalWeight,
-      plastic: this.state.plasticWeight,
+      organic: Number(this.state.organicWeight),
+      metal: Number(this.state.metalWeight),
+      plastic: Number(this.state.plasticWeight),
     };
     this.setState({
       organicWeight: "",
@@ -194,10 +194,15 @@ class FormConversionRate extends Component {
         <div>
           <text>Reward untuk pembuangan sampah</text>
           <ul>
-            <li>organik: {this.submittedWeight.organic || 0} rupiah</li>
-            <li>logam: {this.submittedWeight.metal || 0} rupiah</li>
-            <li>plastik: {this.submittedWeight.plastic || 0} rupiah</li>
+            <li>organik: {this.submittedWeight.organic * 5 || 0} rupiah</li>
+            <li>logam: {this.submittedWeight.metal * 10 || 0} rupiah</li>
+            <li>plastik: {this.submittedWeight.plastic * 20 || 0} rupiah</li>
           </ul>
+          <text>
+            sehingga totalnya sebesar{" "}
+            {(this.submittedWeight.organic * 5 || 0) +
+              this.submittedWeight.metal}
+          </text>
         </div>
       </section>
     );
