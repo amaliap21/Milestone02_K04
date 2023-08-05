@@ -63,10 +63,6 @@ class Footer extends Component {
                 </span>
               </Link>
             </p>
-
-            <a href="https://github.com/EdwaRen/Recycle_Can_Website">
-              <img src={GitHubLogo} className={css(styles.gitHubLogoStyle)} />
-            </a>
           </div>
         </div>
       </div>

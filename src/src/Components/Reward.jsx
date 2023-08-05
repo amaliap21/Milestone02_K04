@@ -203,40 +203,73 @@ class Paint extends Component {
 
 class FormConversionRate extends Component {
   state = {
-    organicWeight: "or",
-    metalWeight: "me",
-    plasticWeight: "pl",
+    organicWeight: "",
+    metalWeight: "",
+    plasticWeight: "",
+  };
+
+  styleInput = {
+    width: "10em",
   };
 
   onChange = (e) => {
     this.setState({ [e.target.name]: e.target.value });
   };
 
+  handleKeyPress = (e) => {
+    const regex = /^[0-9\b]+$/; // Only allow numeric characters and backspace (\b)
+    if (!regex.test(e.key)) {
+      e.preventDefault();
+    }
+  };
+
   render() {
     const { organicWeight, metalWeight, plasticWeight } = this.state;
     return (
-      <div>
-        <form style={{ display: "flex", flexDirection: "column" }}>
-          <input
-            type="text"
-            value={this.state.organicWeight}
-            onChange={this.onChange}
-            name="organicWeight"
-          />
-          <input
-            type="text"
-            value={this.state.metalWeight}
-            onChange={this.onChange}
-            name="metalWeight"
-          />
-          <input
-            type="text"
-            value={this.state.plasticWeight}
-            onChange={this.onChange}
-            name="plasticWeight"
-          />
-        </form>
-      </div>
+      <section>
+        <div>
+          <form style={{ display: "flex", flexDirection: "column" }}>
+            <ul>
+              <li>
+                <label for="organik">Berat sampah organik:</label>
+                <input
+                  style={this.styleInput}
+                  id="organik"
+                  type="text"
+                  value={this.state.organicWeight}
+                  onChange={this.onChange}
+                  name="organicWeight"
+                  onKeyPress={this.handleKeyPress}
+                />
+              </li>
+              tes
+              <li>
+                <h2> berat logam:</h2>
+                <input
+                  style={this.styleInput}
+                  id="logam"
+                  type="text"
+                  value={this.state.metalWeight}
+                  onChange={this.onChange}
+                  name="metalWeight"
+                  onKeyPress={this.handleKeyPress}
+                />
+              </li>
+              <li>
+                <input
+                  style={this.styleInput}
+                  type="text"
+                  value={this.state.plasticWeight}
+                  onChange={this.onChange}
+                  name="plasticWeight"
+                  onKeyPress={this.handleKeyPress}
+                />
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div></div>
+      </section>
     );
   }
 }

@@ -1,13 +1,9 @@
+"use client"
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory } from 'react-router';
 
-
-
-
-
-
-
+import './css/styles.css';
 import App from './Components/App';
 
 
