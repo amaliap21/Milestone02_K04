@@ -89,6 +89,7 @@ class FormConversionRate extends Component {
     organicWeight: "",
     metalWeight: "",
     plasticWeight: "",
+    haveSubmitted: false,
   };
 
   submittedWeight = {
@@ -124,6 +125,7 @@ class FormConversionRate extends Component {
       metalWeight: "",
       plasticWeight: "",
     });
+    this.setState({ haveSubmitted: true });
   };
 
   render() {
@@ -149,7 +151,7 @@ class FormConversionRate extends Component {
                 />
                 <br />
                 <label for="organik" style={{ fontSize: "0.5em" }}>
-                  Harga sampah organik adalah 1000/kg
+                  Harga sampah organik adalah Rp500,- /100 gram
                 </label>
               </li>
               <li>
@@ -165,7 +167,7 @@ class FormConversionRate extends Component {
                 />
                 <br />
                 <label for="logam" style={{ fontSize: "0.5em" }}>
-                  Harga sampah logam adalah 1000/kg
+                  Harga sampah logam adalah Rp1.000,- /100 gram
                 </label>
               </li>
               <li>
@@ -181,7 +183,7 @@ class FormConversionRate extends Component {
                 />
                 <br />
                 <label for="plastik" style={{ fontSize: "0.5em" }}>
-                  Harga sampah plastik adalah 1000/kg
+                  Harga sampah plastik adalah Rp2.000,- /100 gram
                 </label>
               </li>
 
@@ -191,19 +193,23 @@ class FormConversionRate extends Component {
             </ul>
           </form>
         </div>
-        <div>
-          <text>Reward untuk pembuangan sampah</text>
-          <ul>
-            <li>organik: {this.submittedWeight.organic * 5 || 0} rupiah</li>
-            <li>logam: {this.submittedWeight.metal * 10 || 0} rupiah</li>
-            <li>plastik: {this.submittedWeight.plastic * 20 || 0} rupiah</li>
-          </ul>
-          <text>
-            sehingga totalnya sebesar{" "}
-            {(this.submittedWeight.organic * 5 || 0) +
-              this.submittedWeight.metal}
-          </text>
-        </div>
+        {this.state.haveSubmitted ? (
+          <div>
+            <text>Reward untuk pembuangan sampah</text>
+            <ul>
+              <li>organik: {this.submittedWeight.organic * 5 || 0} rupiah</li>
+              <li>logam: {this.submittedWeight.metal * 10 || 0} rupiah</li>
+              <li>plastik: {this.submittedWeight.plastic * 20 || 0} rupiah</li>
+            </ul>
+            <text>
+              sehingga totalnya sebesar{" "}
+              {(this.submittedWeight.organic * 5 || 0) +
+                (this.submittedWeight.metal * 10 || 0) +
+                (this.submittedWeight.plastic * 20 || 0)}{" "}
+              rupiah.
+            </text>
+          </div>
+        ) : null}
       </section>
     );
   }
