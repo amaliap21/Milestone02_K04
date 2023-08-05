@@ -9,127 +9,8 @@ const google = window.google;
 const _ = require("lodash");
 
 const { compose, withProps, lifecycle } = require("recompose");
-const {
-  withScriptjs,
-  withGoogleMap,
-  GoogleMap,
-  FusionTablesLayer,
-} = require("react-google-maps");
-const {
-  SearchBox,
-} = require("react-google-maps/lib/components/places/SearchBox");
 
-const MapWithAFusionTablesLayer = compose(
-  withProps({
-    googleMapURL:
-      "https://maps.googleapis.com/maps/api/js?key=AIzaSyBipGTaEpZxIOqSRoYJakq64x9BQNjZwJs&v=3.exp&libraries=geometry,drawing,places",
-    loadingElement: <div style={{ height: `100%` }} />,
-    containerElement: <div style={{ height: `400px` }} />,
-    mapElement: <div style={{ height: `100%` }} />,
-  }),
-  lifecycle({
-    componentWillMount() {
-      const refs = {};
-
-      this.setState({
-        bounds: null,
-        center: {
-          lat: 45.4235937,
-          lng: -75.7031177,
-        },
-        markers: [],
-        onMapMounted: (ref) => {
-          refs.map = ref;
-        },
-        onBoundsChanged: () => {
-          this.setState({
-            bounds: refs.map.getBounds(),
-            center: refs.map.getCenter(),
-          });
-        },
-        onSearchBoxMounted: (ref) => {
-          refs.searchBox = ref;
-        },
-        onPlacesChanged: () => {
-          const places = refs.searchBox.getPlaces();
-          const bounds = new google.maps.LatLngBounds();
-
-          places.forEach((place) => {
-            if (place.geometry.viewport) {
-              bounds.union(place.geometry.viewport);
-            } else {
-              bounds.extend(place.geometry.location);
-            }
-          });
-          const nextMarkers = places.map((place) => ({
-            position: place.geometry.location,
-          }));
-          const nextCenter = _.get(
-            nextMarkers,
-            "0.position",
-            this.state.center
-          );
-
-          this.setState({
-            center: nextCenter,
-            markers: nextMarkers,
-          });
-          // refs.map.fitBounds(bounds);
-        },
-      });
-    },
-  }),
-  withScriptjs,
-  withGoogleMap
-)((props) => (
-  <GoogleMap
-    ref={props.onMapMounted}
-    defaultZoom={11}
-    defaultCenter={{ lat: 45.4235937, lng: -75.7031177 }}
-    center={props.center}
-
-    // onBoundsChanged={props.onBoundsChanged}
-  >
-    {/* Paint: 1R3jmt90pLFytzfWEYB2myzsBhkrvwh8JfPn4eImG */}
-    {/* Ewaste: 1ySrhzEk6ubvy7EQZeG7zWEnP4UUNDbhcFviGiHBB */}
-    <FusionTablesLayer
-      url="http://googlemaps.github.io/js-v2-samples/ggeoxml/cta.kml"
-      options={{
-        query: {
-          select: `Name`,
-          from: `1R3jmt90pLFytzfWEYB2myzsBhkrvwh8JfPn4eImG`,
-          // where: `Latitude ==0`
-        },
-      }}
-    />
-    <SearchBox
-      ref={props.onSearchBoxMounted}
-      bounds={props.bounds}
-      controlPosition={google.maps.ControlPosition.TOP_LEFT}
-      onPlacesChanged={props.onPlacesChanged}
-    >
-      <input
-        type="text"
-        placeholder="Search ..."
-        style={{
-          boxSizing: `border-box`,
-          border: `1px solid transparent`,
-          width: `240px`,
-          height: `30px`,
-          marginTop: `9px`,
-          padding: `0 12px`,
-          borderRadius: `3px`,
-          boxShadow: `0 2px 6px rgba(0, 0, 0, 0.3)`,
-          fontSize: `14px`,
-          outline: `none`,
-          textOverflow: `ellipses`,
-        }}
-      />
-    </SearchBox>
-  </GoogleMap>
-));
-
-class Paint extends Component {
+class Reward extends Component {
   constructor() {
     super();
   }
@@ -163,7 +44,9 @@ class Paint extends Component {
             </div>
           </div>
         </section>
-
+        <section style={{ backgroundColor: "#333" }}>
+          <FormConversionRate />
+        </section>
         <div id="overviewE" style={{ height: "900px" }}>
           <div id="fixedWidth">
             <div id="desclong3">
@@ -193,7 +76,7 @@ class Paint extends Component {
             {/* {this.numberFilesToRender()} */}
             {/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHlW8YibL2zp7mdBSNeT81AYVaxHuOk3A&libraries=places&callback=initAutocomplete" async defer></script> */}
           </div>
-          <FormConversionRate />
+
           <Footer />
         </div>
       </div>
@@ -206,6 +89,12 @@ class FormConversionRate extends Component {
     organicWeight: "",
     metalWeight: "",
     plasticWeight: "",
+  };
+
+  submittedWeight = {
+    organic: "",
+    metal: "",
+    plastic: "",
   };
 
   styleInput = {
@@ -223,15 +112,32 @@ class FormConversionRate extends Component {
     }
   };
 
+  handleSubmit = (e) => {
+    e.preventDefault();
+    this.submittedWeight = {
+      organic: this.state.organicWeight,
+      metal: this.state.metalWeight,
+      plastic: this.state.plasticWeight,
+    };
+    this.setState({
+      organicWeight: "",
+      metalWeight: "",
+      plasticWeight: "",
+    });
+  };
+
   render() {
     const { organicWeight, metalWeight, plasticWeight } = this.state;
     return (
       <section>
         <div>
-          <form style={{ display: "flex", flexDirection: "column" }}>
+          <form
+            style={{ display: "flex", flexDirection: "column" }}
+            onSubmit={this.handleSubmit}
+          >
             <ul>
               <li>
-                <label for="organik">Berat sampah organik:</label>
+                <label for="organik">Berat sampah organik (gram):</label>
                 <input
                   style={this.styleInput}
                   id="organik"
@@ -241,10 +147,13 @@ class FormConversionRate extends Component {
                   name="organicWeight"
                   onKeyPress={this.handleKeyPress}
                 />
+                <br />
+                <label for="organik" style={{ fontSize: "0.5em" }}>
+                  Harga sampah organik adalah 1000/kg
+                </label>
               </li>
-              tes
               <li>
-                <h2> berat logam:</h2>
+                <label for="logam">Berat sampah logam (gram):</label>
                 <input
                   style={this.styleInput}
                   id="logam"
@@ -254,9 +163,15 @@ class FormConversionRate extends Component {
                   name="metalWeight"
                   onKeyPress={this.handleKeyPress}
                 />
+                <br />
+                <label for="logam" style={{ fontSize: "0.5em" }}>
+                  Harga sampah logam adalah 1000/kg
+                </label>
               </li>
               <li>
+                <label for="plastik">Berat sampah plastik (gram):</label>
                 <input
+                  id="plastik"
                   style={this.styleInput}
                   type="text"
                   value={this.state.plasticWeight}
@@ -264,14 +179,29 @@ class FormConversionRate extends Component {
                   name="plasticWeight"
                   onKeyPress={this.handleKeyPress}
                 />
+                <br />
+                <label for="plastik" style={{ fontSize: "0.5em" }}>
+                  Harga sampah plastik adalah 1000/kg
+                </label>
+              </li>
+
+              <li>
+                <button type="submit">Submit</button>
               </li>
             </ul>
           </form>
         </div>
-        <div></div>
+        <div>
+          <text>Reward untuk pembuangan sampah</text>
+          <ul>
+            <li>organik: {this.submittedWeight.organic || 0} rupiah</li>
+            <li>logam: {this.submittedWeight.metal || 0} rupiah</li>
+            <li>plastik: {this.submittedWeight.plastic || 0} rupiah</li>
+          </ul>
+        </div>
       </section>
     );
   }
 }
 
-export default Paint;
+export default Reward;
