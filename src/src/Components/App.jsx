@@ -27,6 +27,7 @@ import article4 from "./TrashGuide/Articles/Article4";
 import article5 from "./TrashGuide/Articles/Article5";
 import article6 from "./TrashGuide/Articles/Article6";
 import '../css/styles.css';
+import '../css/TrashGuide.css'
 
 
 

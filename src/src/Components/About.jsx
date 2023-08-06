@@ -85,11 +85,111 @@ function About() {
         <div id="fixedWidth">
           <div id="desclongAbout" style = {{textAlign:'left', marginTop: '20px'}}>
             <div id="header33" >
+              <div class = "trashguide-title">
+                  <h1><b>Anggota Kelompok</b></h1>
+              </div>
+              <div class = "trashguide-container">
+                <div class = "trashguide-list">
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Amalia Putri</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Indraswara Galih</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Ignatius Jhon </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle"> Nurul Hakim</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+               
 
-              <h1 style = {{textAlign:'left'}}>
-                <b>Anggota kelompok</b>
-              </h1>
-             
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Timothy Haposan</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Andhita Naura </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Nyoman Ganadipa </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Wisyendra Lunarmalam </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  
+
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Mohamad Maulana</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Ibrahim Ihsan</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle"> Hanief Fatkhan</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Naomi Pricilla </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                  <div class = "trashguide-card">
+                    <img src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png" alt="" />
+                    <h1 class = "trashguide-subtitle">Nicolas Jeremy </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ex.
+                      Lorem ipsum, dolor sit Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+                    </p>
+                  </div>
+                
+
+                </div>
+          
+              </div>
 
               
             </div>
