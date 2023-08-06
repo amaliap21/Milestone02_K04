@@ -394,7 +394,8 @@ tr.classname {
   bottom: 0;
   position: absolute;
   width: 100%;
-  height: 240px;
+  height: 150px;
+  padding: 20px 0;
   background-color: #4b5661;
   text-align: center;
   z-index: 1000;
