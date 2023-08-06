@@ -117,8 +117,8 @@ const TrashGuide = (props: Props) => {
             <div id="header33">
               <h1 style={{ textAlign: "left" }}>
                 <b>
-                  ZERO WASTE LIFESTYLE MENANTANG KAMU UNTUK MENERAPKAN GAYA
-                  HIDUP BEBAS SAMPAH. BISA?
+                  Zero Waste Lifestyle Menantang Kamu Untuk Menerapkan Gaya
+                  Hidup Bebas Sampah. Bisa?
                 </b>
               </h1>
               <p

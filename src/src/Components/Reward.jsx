@@ -117,11 +117,13 @@ class FormConversionRate extends Component {
                 onKeyPress={this.handleKeyPress}
                 className="form-control"
               />
-              <br />
               <label for="organik" style={{ fontSize: "0.5em" }}>
                 Harga sampah organik adalah Rp500,- /100 gram
               </label>
             </div>
+
+            <br />
+
             <div className="form-group">
               <label for="logam">Berat sampah logam (gram):</label>
               <input
@@ -133,11 +135,13 @@ class FormConversionRate extends Component {
                 onKeyPress={this.handleKeyPress}
                 className="form-control"
               />
-              <br />
               <label for="logam" style={{ fontSize: "0.5em" }}>
                 Harga sampah logam adalah Rp1.000,- /100 gram
               </label>
             </div>
+
+            <br />
+
             <div className="form-group">
               <label for="plastik">Berat sampah plastik (gram):</label>
               <input
@@ -149,11 +153,12 @@ class FormConversionRate extends Component {
                 onKeyPress={this.handleKeyPress}
                 className="form-control"
               />
-              <br />
               <label for="plastik" style={{ fontSize: "0.5em" }}>
                 Harga sampah plastik adalah Rp2.000,- /100 gram
               </label>
             </div>
+
+            <br />
 
             <div className="form-group">
               <button type="submit">Submit</button>
