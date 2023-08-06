@@ -1418,3 +1418,8 @@ h2 span {
 #hasil-reward {
   margin: 0 20px;
 }
+
+#TPS-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
