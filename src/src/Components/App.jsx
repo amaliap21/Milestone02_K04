@@ -27,7 +27,6 @@ import article6 from "./TrashGuide/Articles/Article6";
 import "../css/styles.css";
 import "../css/TrashGuide.css";
 
-
 // App.jsx is not 'actually necessary' but it follows accepted react architecture by always having an App.jsx main renderer
 class App extends Component {
   constructor(props) {

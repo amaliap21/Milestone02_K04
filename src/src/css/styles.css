@@ -22,9 +22,6 @@
   text-align: left;
   float: left;
 }
-.showhim:hover {
-  /* width:150px; */
-}
 .icon {
   /* position: relative;
   top: 50%;
@@ -978,9 +975,6 @@ h2 span {
   height: auto;
 }
 
-#unlock {
-}
-
 #draw h1 {
   font-family: Delicious2, Sans-Serif;
   font-size: 30px;
@@ -1415,4 +1409,8 @@ h2 span {
 
 #Locate {
   color: #4b5661;
+}
+
+#reward-container {
+  padding: 20px 0;
 }

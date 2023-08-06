@@ -29,8 +29,8 @@ class Reward extends Component {
             <div id="fixedWidth"></div>
           </article>
 
-          <div class="parallax" data-velocity="-.3"></div>
-          <div class="parallax" data-velocity="-.2" data-fit="525">
+          <div className="parallax" data-velocity="-.3"></div>
+          <div className="parallax" data-velocity="-.2" data-fit="525">
             <div id="fixedWidth">
               <div id="window">
                 <div id="textWindow">
@@ -43,6 +43,9 @@ class Reward extends Component {
         </section>
         <section style={{ backgroundColor: "#333" }}>
           <FormConversionRate />
+        </section>
+
+        <section>
           <Footer />
         </section>
       </div>
@@ -98,65 +101,63 @@ class FormConversionRate extends Component {
     const { organicWeight, metalWeight, plasticWeight } = this.state;
     return (
       <section>
-        <div>
+        <div className="container" id="reward-container">
           <form
-            style={{ display: "flex", flexDirection: "column" }}
+            // style={{ display: "flex", flexDirection: "column" }}
             onSubmit={this.handleSubmit}
           >
-            <ul>
-              <li>
-                <label for="organik">Berat sampah organik (gram):</label>
-                <input
-                  style={this.styleInput}
-                  id="organik"
-                  type="text"
-                  value={this.state.organicWeight}
-                  onChange={this.onChange}
-                  name="organicWeight"
-                  onKeyPress={this.handleKeyPress}
-                />
-                <br />
-                <label for="organik" style={{ fontSize: "0.5em" }}>
-                  Harga sampah organik adalah Rp500,- /100 gram
-                </label>
-              </li>
-              <li>
-                <label for="logam">Berat sampah logam (gram):</label>
-                <input
-                  style={this.styleInput}
-                  id="logam"
-                  type="text"
-                  value={this.state.metalWeight}
-                  onChange={this.onChange}
-                  name="metalWeight"
-                  onKeyPress={this.handleKeyPress}
-                />
-                <br />
-                <label for="logam" style={{ fontSize: "0.5em" }}>
-                  Harga sampah logam adalah Rp1.000,- /100 gram
-                </label>
-              </li>
-              <li>
-                <label for="plastik">Berat sampah plastik (gram):</label>
-                <input
-                  id="plastik"
-                  style={this.styleInput}
-                  type="text"
-                  value={this.state.plasticWeight}
-                  onChange={this.onChange}
-                  name="plasticWeight"
-                  onKeyPress={this.handleKeyPress}
-                />
-                <br />
-                <label for="plastik" style={{ fontSize: "0.5em" }}>
-                  Harga sampah plastik adalah Rp2.000,- /100 gram
-                </label>
-              </li>
+            <div className="form-group">
+              <label for="organik">Berat sampah organik (gram):</label>
+              <input
+                id="organik"
+                type="text"
+                value={this.state.organicWeight}
+                onChange={this.onChange}
+                name="organicWeight"
+                onKeyPress={this.handleKeyPress}
+                className="form-control"
+              />
+              <br />
+              <label for="organik" style={{ fontSize: "0.5em" }}>
+                Harga sampah organik adalah Rp500,- /100 gram
+              </label>
+            </div>
+            <div className="form-group">
+              <label for="logam">Berat sampah logam (gram):</label>
+              <input
+                id="logam"
+                type="text"
+                value={this.state.metalWeight}
+                onChange={this.onChange}
+                name="metalWeight"
+                onKeyPress={this.handleKeyPress}
+                className="form-control"
+              />
+              <br />
+              <label for="logam" style={{ fontSize: "0.5em" }}>
+                Harga sampah logam adalah Rp1.000,- /100 gram
+              </label>
+            </div>
+            <div className="form-group">
+              <label for="plastik">Berat sampah plastik (gram):</label>
+              <input
+                id="plastik"
+                type="text"
+                value={this.state.plasticWeight}
+                onChange={this.onChange}
+                name="plasticWeight"
+                onKeyPress={this.handleKeyPress}
+                className="form-control"
+              />
+              <br />
+              <label for="plastik" style={{ fontSize: "0.5em" }}>
+                Harga sampah plastik adalah Rp2.000,- /100 gram
+              </label>
+            </div>
 
-              <li>
-                <button type="submit">Submit</button>
-              </li>
-            </ul>
+            <div className="form-group">
+              <button type="submit">Submit</button>
+            </div>
           </form>
         </div>
         {this.state.haveSubmitted ? (
