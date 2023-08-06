@@ -46,7 +46,7 @@ class Footer extends Component {
           <a href="Index.html">
             <img src={RecycleCanLight} className={css(styles.logoImageStyle)} />
           </a>
-          <p>© Copyright 2017 Recycle Can, inc.</p>
+          <p>© Copyright 2023 Trashmap by Kelompok 4</p>
         </div>
       </div>
     );

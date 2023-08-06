@@ -406,6 +406,7 @@ tr.classname {
   font-family: RalewayBld, Sans-Serif;
   font-size: 13px;
   text-align: center;
+  margin: auto;
 }
 
 #footer h1 {
@@ -1411,4 +1412,8 @@ h2 span {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+}
+
+#Locate {
+  color: #4b5661;
 }

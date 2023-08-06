@@ -4,7 +4,6 @@ import { Link } from "react-router";
 import Header from "./Header";
 import Footer from "./Footer";
 
-import iPhonePromo1 from "../Images/iPhone_Icon_Promo_AvailibleAppStore.png";
 import ComputerArt from "../Images/computer_Art.jpg";
 import Ewaste3 from "../Images/E-waste3.jpg";
 import MapLocate from "../Images/mapLocate.png";
@@ -138,16 +137,11 @@ class Home extends Component {
                   <b>Use Our Locator To Find A Nearby Collection Site.</b>
                 </h1>
                 <h1>
-                  <a href="E-waste.html">
-                    <p>For E-Waste</p>
-                  </a>
-                  <a href="Batteries.html">
-                    <p>For Batteries</p>
-                  </a>
-
-                  <a href="Paint.html">
-                    <p>For Other Hazardous Materials</p>
-                  </a>
+                  <Link to="/LocateUs">
+                    <div>
+                      <h5 id="Locate">Locate Us</h5>
+                    </div>
+                  </Link>
                 </h1>
               </div>
             </div>

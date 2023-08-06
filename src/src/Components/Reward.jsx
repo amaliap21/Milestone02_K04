@@ -5,7 +5,6 @@ import { Link } from "react-router";
 import Header from "./Header";
 import Footer from "./Footer";
 
-
 const { compose, withProps, lifecycle } = require("recompose");
 
 class Reward extends Component {
@@ -44,39 +43,8 @@ class Reward extends Component {
         </section>
         <section style={{ backgroundColor: "#333" }}>
           <FormConversionRate />
-        </section>
-        <div id="overviewE" style={{ height: "900px" }}>
-          <div id="fixedWidth">
-            <div id="desclong3">
-              <div id="header3">
-                <h1>
-                  <b>Enter Your Address or Postal Code To Begin</b>
-                </h1>
-              </div>
-            </div>
-          </div>
-
-          <p id="demo"></p>
-
-          <div id="fixedWidthM" style={{ width: "100%" }}>
-            <input
-              id="pac-input"
-              class="controls"
-              type="text"
-              placeholder="Search Box"
-              disabled
-              style={{ opacity: "0" }}
-            />
-            <div style={{ backgroundColor: "#333" }} />
-
-            {/* 45.248786,-76.3607093 */}
-
-            {/* {this.numberFilesToRender()} */}
-            {/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHlW8YibL2zp7mdBSNeT81AYVaxHuOk3A&libraries=places&callback=initAutocomplete" async defer></script> */}
-          </div>
-
           <Footer />
-        </div>
+        </section>
       </div>
     );
   }
@@ -214,4 +182,3 @@ class FormConversionRate extends Component {
 }
 
 export default Reward;
-
