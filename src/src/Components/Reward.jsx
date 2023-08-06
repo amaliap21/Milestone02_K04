@@ -166,7 +166,7 @@ class FormConversionRate extends Component {
           </form>
         </div>
         {this.state.haveSubmitted ? (
-          <div>
+          <div id="hasil-reward">
             <text>Reward untuk pembuangan sampah</text>
             <ul>
               <li>organik: {this.submittedWeight.organic * 5 || 0} rupiah</li>
