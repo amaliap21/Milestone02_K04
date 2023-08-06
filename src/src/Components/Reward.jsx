@@ -5,6 +5,7 @@ import { Link } from "react-router";
 import Header from "./Header";
 import Footer from "./Footer";
 
+
 const { compose, withProps, lifecycle } = require("recompose");
 
 class Reward extends Component {
@@ -213,3 +214,4 @@ class FormConversionRate extends Component {
 }
 
 export default Reward;
+

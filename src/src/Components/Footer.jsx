@@ -47,6 +47,7 @@ class Footer extends Component {
             <a href="Index.html">
               <p></p>
             </a>
+
           </div>
           <a href="Index.html">
             <img src={RecycleCanLight} className={css(styles.logoImageStyle)} />
