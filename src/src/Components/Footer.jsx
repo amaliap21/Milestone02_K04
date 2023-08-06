@@ -42,15 +42,18 @@ class Footer extends Component {
 
     return (
       <div id="fixedwidth">
-          <div id="footer">
-              <div id="logodiv2">
-                  <a href='Index.html'>
-                      <p></p>
-                  </a>
+        <div id="footer">
+          <div id="logodiv2">
+            <a href="Index.html">
+              <p></p>
+            </a>
 
-                  <a href='Index.html'><img src={RecycleCanLight} className = {css(styles.logoImageStyle)} /></a>
-
-              </div>
+            <a href="Index.html">
+              <img
+                src={RecycleCanLight}
+                className={css(styles.logoImageStyle)}
+              />
+            </a>
           </div>
         </div>
       </div>
