@@ -39,7 +39,7 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/reward">
+            <Link to="/Reward">
               <span>Reward</span>
             </Link>
           </li>
@@ -69,7 +69,7 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/reward">
+            <Link to="/Reward">
               <span>Reward</span>
             </Link>
           </li>

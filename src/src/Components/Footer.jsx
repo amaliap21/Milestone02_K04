@@ -1,44 +1,46 @@
-import React, {Component} from 'react';
+import React, { Component } from "react";
 // import { Switch, Route } from 'react-router-dom'
-import { Router, Route, Link, IndexRoute, hashHistory, browserHistory, DefaultRoute, IndexLink } from 'react-router'
-import '../css/styles.css';
-import { StyleSheet, css } from 'aphrodite/no-important';
+import {
+  Router,
+  Route,
+  Link,
+  IndexRoute,
+  hashHistory,
+  browserHistory,
+  DefaultRoute,
+  IndexLink,
+} from "react-router";
+import "../css/styles.css";
+import { StyleSheet, css } from "aphrodite/no-important";
 
-import RecycleCanLight from '../Images/Recycle_Ontario_Light.png';
-import GitHubLogo from '../Images/GitHub.png';
-
+import RecycleCanLight from "../Images/Recycle_Ontario_Light.png";
+import GitHubLogo from "../Images/GitHub.png";
 
 class Footer extends Component {
   constructor() {
     super();
   }
 
-
   render() {
-
     const styles = StyleSheet.create({
-
       logoLinkStyle: {
-        color:'white',
-        textDecoration:'none',
+        color: "white",
+        textDecoration: "none",
       },
 
       logoImageStyle: {
-
-        width: '240px',
-        height: '80px',
+        width: "240px",
+        height: "80px",
       },
       gitHubLogoStyle: {
-        width: '35px',
-        height: '35px',
+        width: "35px",
+        height: "35px",
       },
-
     });
 
     console.log("Hi, ", this.props.page);
 
     return (
-
       <div id="fixedwidth">
           <div id="footer">
               <div id="logodiv2">
@@ -50,12 +52,10 @@ class Footer extends Component {
 
               </div>
           </div>
+        </div>
       </div>
-
     );
   }
-
-
 }
 
 export default Footer;
