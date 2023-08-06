@@ -17,15 +17,21 @@
     "react-google-map": "^3.0.1",
     "react-google-maps": "^7.3.0",
     "react-google-maps-loader": "^4.3.1",
-    "react-modal": "^3.16.1",
     "react-pure-render": "^1.0.2",
     "react-router": "3.0.4",
     "react-router-dom": "^4.2.2",
+<<<<<<< HEAD
     "react-scripts": "^2.1.3",
     "recompose": "^0.17.0",
     "redux": "^3.7.2",
     "styled-components": "^6.0.7",
     "yarn": "^1.22.19"
+=======
+    "react-scripts": "^1.1.5",
+    "recompose": "^0.17.0",
+    "redux": "^3.7.2",
+    "webpack": "^3.5.5"
+>>>>>>> 346f75b5b46718c7a2a839fd671b2a108e9b8f92
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -40,17 +46,5 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.27",
     "tailwindcss": "^3.3.3"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
