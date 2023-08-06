@@ -42,15 +42,27 @@ class Footer extends Component {
 
     return (
       <div id="fixedwidth">
-          <div id="footer">
-              <div id="logodiv2">
-                  <a href='Index.html'>
-                      <p></p>
-                  </a>
+        <div id="footer">
+          <div id="logodiv2">
+            <a href="Index.html">
+              <p></p>
+            </a>
 
-                  <a href='Index.html'><img src={RecycleCanLight} className = {css(styles.logoImageStyle)} /></a>
+            <a href="Index.html">
+              <img
+                src={RecycleCanLight}
+                className={css(styles.logoImageStyle)}
+              />
+            </a>
+            <p>© Copyright 2017 Recycle Can, inc.</p>
 
-              </div>
+            <p>
+              <Link to="/terms_privacy">
+                <span style={{ color: "#FFF" }}>
+                  Terms of Use and Privacy Policy
+                </span>
+              </Link>
+            </p>
           </div>
         </div>
       </div>

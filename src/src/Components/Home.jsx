@@ -90,16 +90,21 @@ class Home extends Component {
               <div id="header3">
                 <h1>
                   <b>
-                  Pentingnya Mendaur Ulang Elektronik, Baterai, dan Bahan Berbahaya Rumah Tangga
+                    Why Recycle Your Electronics, Batteries, Or Any Household
+                    Hazardous Materials?
                   </b>
                 </h1>
                 <h1>
                   <p>
-                  Di abad ke-21, banyak elektronik, baterai, dan cat mengandung bahan beracun 
-                  seperti timah, merkuri, atau yang paling umum adalah gas beracun, yang dapat terlepas ke lingkungan ketika dibuang secara tidak benar. 
-                  Sifat beracun ini membuat bahan-bahan tersebut tidak layak untuk dibuang di tempat pembuangan sampah konvensional. 
-                  Dengan Recycle Can, kami menyediakan alat nasional yang memberikan lokasi 
-                  terdekat untuk mendaur ulang bahan-bahan berbahaya dari rumah Anda di tempat pengumpulan yang aman dan disetujui oleh pemerintah.
+                    In the 21st century, many electronics, batteries, and paint
+                    contain toxic materials such as lead, mercury, or most
+                    commonly, toxic fumes, that can get released into the
+                    environment when improperly disposed of. These toxic
+                    qualities render the materials in question unfit to be
+                    disposed of in traditional landfills. With Recycle Can, we
+                    provide a nationwide tool that gives the nearest location to
+                    recycle your potentially dangerous household materials in a
+                    safe, government approved collection site.
                   </p>
                 </h1>
               </div>
@@ -120,15 +125,19 @@ class Home extends Component {
             <div id="desc3">
               <div id="header3">
                 <h1>
-                  <b>Bagaimana sampah memengaruhi dunia.</b>
+                  <b>How E-waste affects the world.</b>
                 </h1>
                 <h1>
                   <p>
-                  Bahan berbahaya rumah tangga yang tumbuh dengan cepat adalah limbah elektronik, yang dikenal sebagai e-waste. 
-                  Dengan konsumen yang tampaknya mengganti elektronik lama mereka, seperti ponsel, setiap dua tahun sekali, 
-                  terdapat tumpukan e-waste yang semakin bertambah yang perlu dibuang. 
-                  Dalam banyak kasus, limbah tersebut dipilah-pilah oleh pekerja di negara-negara dunia ketiga untuk mendapatkan logam langka, 
-                  tetapi hal ini membuat mereka terpapar elemen berbahaya seperti gas beracun, timah, merkuri, atau bahkan arsenik.
+                    The fastest growing household hazardous material is
+                    electronic waste, otherwise known as e-waste. With consumers
+                    seemingly replacing their old electronics such as their
+                    phones every two years, there is an ever growing pile of
+                    e-waste needing to be disposed of. In many instances, such
+                    waste is picked apart by workers in third world countries
+                    for its rare metals but thus exposing them to dangerous
+                    elements such as toxic fumes, lead, mercury, or even
+                    arsenic.
                   </p>
                 </h1>
               </div>

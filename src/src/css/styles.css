@@ -595,62 +595,15 @@ h2 span {
     overflow: hidden;
     box-shadow: 0px -3px 10px 1px #333333;
     width: 100%;
-    height: 4000px;
+    height: 1650px;
     background-color: #FFFFFF;
     font-style: FuturaKoya, Sans-Serif;
     font-size: 0;
     position: relative;
     z-index: 20;
 }
-#overviewTrashguide {
-    overflow: hidden;
-    box-shadow: 0px -3px 10px 1px #333333;
-    width: 100%;
-    height: 2500px;
-    background-color: #FFFFFF;
-    font-style: FuturaKoya, Sans-Serif;
-    font-size: 0;
-    position: relative;
-    z-index: 20;
-}
-
-#overviewGuide {
-    overflow: hidden;
-    box-shadow: 0px -3px 10px 1px #333333;
-    width: 100%;
-    height: 3750px;
-    background-color: #FFFFFF;
-    font-style: FuturaKoya, Sans-Serif;
-    font-size: 0;
-    position: relative;
-    z-index: 20;
-}
-
-#overviewArticle{
-    overflow: hidden;
-    box-shadow: 0px -3px 10px 1px #333333;
-    width: 100%;
-    height: 2000px;
-    background-color: #FFFFFF;
-    font-style: FuturaKoya, Sans-Serif;
-    font-size: 0;
-    position: relative;
-    z-index: 20;
-}
-#overviewArticle2{
-    overflow: hidden;
-    box-shadow: 0px -3px 10px 1px #333333;
-    width: 100%;
-    height: 3500px;
-    background-color: #FFFFFF;
-    font-style: FuturaKoya, Sans-Serif;
-    font-size: 0;
-    position: relative;
-    z-index: 20;
-}
-
 #overviewTerms {
-overflow: hidden;
+    overflow: hidden;
     box-shadow: 0px -3px 10px 1px #333333;
     width: 100%;
     height: 1900px;
@@ -812,47 +765,6 @@ overflow: hidden;
     background-color: #EEEEEE;
 }
 
-#desctitle {
-    float: left;
-    position: relative;
-    margin-left: 200px; 
-    margin-right: 200px;
-    width: 1000px;
-    height: 75px;
-    background-color: #EEEEEE;
-}
-
-
-#desc1 {
-    float: left;
-    position: relative;
-    width: 1200;
-    height: 400px;
-    margin-left: 200px; 
-    margin-right: 200px;
-    background-color: #EEEEEE;
-}
-
-#descib {
-    float: left;
-    position: relative;
-    width: 1200;
-    height: 3000px;
-    margin-left: 200px; 
-    margin-right: 200px;
-    background-color: #EEEEEE;
-}
-
-#descnj {
-    float: left;
-    position: relative;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 200px; 
-    margin-right: 200px;
-    background-color: #EEEEEE;
-}
-
 #desclong {
     float: left;
     position: relative;
@@ -892,7 +804,6 @@ overflow: hidden;
     height: 400px;
     background-color: #EEEEEE;
 }
-
 #desclong6 {
     float: left;
     position: relative;
@@ -900,38 +811,11 @@ overflow: hidden;
     height: 1100px;
     background-color: #EEEEEE;
 }
-
 #desclong7 {
     float: left;
     position: relative;
     width: 1000px;
     height: 180px;
-    background-color: #EEEEEE;
-}
-
-#desclongAbout {
-    float: left;
-    position: relative;
-    width: 1000px;
-    height: 2000px;
-    background-color: #EEEEEE;
-}
-
-#desclongtrashguide {
-
-    float: left;
-    position: relative;
-    width: 1000px;
-    height: 350px;
-    background-color: #EEEEEE;
-}
-
-#articlepreview {
-
-    float: left;
-    position: relative;
-    width: 1000px;
-    height: 350px;
     background-color: #EEEEEE;
 }
 
@@ -1156,8 +1040,7 @@ overflow: hidden;
     font-size: 20px;
 }
 #header32 h1 {
-    margin-top: 40px;
-    padding-top:20px;
+    padding-top: 20px;
     position: relative;
     padding-left: 60px;
     padding-right: 60px;
@@ -1168,18 +1051,6 @@ overflow: hidden;
     line-height: 140%;
     letter-spacing: -0.3px;
 }
-
-#headernj {
-    margin-top: auto;
-    
-    font-family: RalewayBld, Sans-Serif;
-        color: #5c5c5c;
-
-    font-size: 25px;
-    line-height: 140%;
-    letter-spacing: -0.3px;
-}
-
 
 #header32 p {
             color: #5c5c5c;
@@ -1390,41 +1261,24 @@ overflow: hidden;
 }
 
 
-
-.trashGuideComponents{
-    display: flex; 
+.trashsection {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-items: center;
     justify-content: center;
     align-items: center;
+
 }
 
-.boxlink {
-    box-shadow:2px 2px 4px grey;
-    border: 2px dashed #47C19C;
-      text-shadow: 1px 1px #E3D5D5;
-      padding: 10px;
-      text-align: center;
-      font-size: larger;
-    }
-  
-.boxlink:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16), 0 4px 20px 0 rgba(0, 0, 0, 0.12);
-      cursor: pointer;
-      background-color: #A5E6EB; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#DBFCF2, #ECFDF8);
-      color: #47C19C;
-      border: 2px dashed #919191;
-      font-size: 110%;
-  
-}
+.trashexplain{
 
-#flexbox{
-    display: flex; 
-    flex-wrap: wrap; 
-    gap: 10px 10px;
-}
+    height: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    justify-items: left;
+    align-items: center;
 
-.blog-section {
-    margin: 0px; 
-    padding: 0px; 
-    box-sizing: border-box;
 }
