@@ -34,7 +34,7 @@ class Reward extends Component {
             <div id="fixedWidth">
               <div id="window">
                 <div id="textWindow">
-                  <h1> Recycle Your Paint </h1>
+                  <h1> Tukar Sampahmu dengan Rupiah</h1>
                   <h1> </h1>
                 </div>
               </div>
