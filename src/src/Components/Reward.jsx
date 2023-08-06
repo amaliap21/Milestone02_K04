@@ -5,8 +5,6 @@ import { Link } from "react-router";
 import Header from "./Header";
 import Footer from "./Footer";
 
-const google = window.google;
-const _ = require("lodash");
 
 const { compose, withProps, lifecycle } = require("recompose");
 
@@ -216,3 +214,4 @@ class FormConversionRate extends Component {
 }
 
 export default Reward;
+>>>>>>> main

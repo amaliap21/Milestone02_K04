@@ -24,7 +24,6 @@ ReactDOM.render((
   //     <Route exact path = "/errorunknown" component = {ErrorUnknown} />
   //   </Switch>
   // </HashRouter>
-
     <App />
   // </Router>
 ), document.getElementById('root'));
