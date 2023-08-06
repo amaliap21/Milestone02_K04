@@ -841,8 +841,7 @@ h2 span {
 #descnj {
   float: left;
   position: relative;
-  margin-top: auto;
-  margin-bottom: auto;
+  padding: 10px 60px;
   margin-left: 200px;
   margin-right: 200px;
   background-color: #eeeeee;
@@ -1149,11 +1148,13 @@ h2 span {
   font-size: 20px;
 }
 #header32 h1 {
+<<<<<<< Updated upstream
   margin-top: 40px;
   padding-top: 20px;
+=======
+>>>>>>> Stashed changes
   position: relative;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 10px 60px;
   font-family: RalewayBld, Sans-Serif;
   color: #5c5c5c;
 
@@ -1412,3 +1413,29 @@ h2 span {
   padding: 0px;
   box-sizing: border-box;
 }
+<<<<<<< Updated upstream
+=======
+
+#Locate {
+  color: #4b5661;
+}
+
+#reward-container {
+  padding: 20px 0;
+}
+
+#hasil-reward {
+  margin: 0 20px;
+}
+
+#TPS-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#container-art1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+>>>>>>> Stashed changes
