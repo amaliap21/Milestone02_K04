@@ -22,9 +22,6 @@
   text-align: left;
   float: left;
 }
-.showhim:hover {
-  /* width:150px; */
-}
 .icon {
   /* position: relative;
   top: 50%;
@@ -481,7 +478,7 @@ tr.classname {
   background-color: #323336;
   color: #323336;
   width: 400px;
-  height: 90%;
+  height: 100%;
   z-index: 10;
   opacity: 0.8;
   padding-top: 200px;
@@ -978,9 +975,6 @@ h2 span {
   height: auto;
 }
 
-#unlock {
-}
-
 #draw h1 {
   font-family: Delicious2, Sans-Serif;
   font-size: 30px;
@@ -1150,8 +1144,7 @@ h2 span {
   font-size: 20px;
 }
 #header32 h1 {
-  margin-top: 40px;
-  padding-top: 20px;
+  padding-top: 10px;
   position: relative;
   padding-left: 60px;
   padding-right: 60px;
@@ -1416,4 +1409,12 @@ h2 span {
 
 #Locate {
   color: #4b5661;
+}
+
+#reward-container {
+  padding: 20px 0;
+}
+
+#hasil-reward {
+  margin: 0 20px;
 }
