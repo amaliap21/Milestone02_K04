@@ -13,6 +13,8 @@ const Reward = (props: Props) => {
     <div>
        <Header page = {3}/>
        Reward
+
+       <Footer/>
     </div>
   )
 }

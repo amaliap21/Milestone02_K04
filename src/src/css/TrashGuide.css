@@ -1,0 +1,49 @@
+.trashguide-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trashguide-title {
+    color: black;
+    font-size: 4rem;
+}
+
+.trashguide-subtitle {
+    color: black;
+    font-size: 1rem;
+}
+
+.trashguide-list {
+    height: 2000px;
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    column-gap: 1rem;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.trashguide-card {
+    width: 300px;
+    height: 350px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.20);
+}
+
+.trashguide-card p {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.trashguide-card img {
+    width: 80%;
+}
+
