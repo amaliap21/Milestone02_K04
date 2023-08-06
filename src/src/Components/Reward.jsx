@@ -214,4 +214,4 @@ class FormConversionRate extends Component {
 }
 
 export default Reward;
->>>>>>> main
+
