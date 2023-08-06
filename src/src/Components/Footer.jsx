@@ -14,7 +14,6 @@ import "../css/styles.css";
 import { StyleSheet, css } from "aphrodite/no-important";
 
 import RecycleCanLight from "../Images/Recycle_Ontario_Light.png";
-import GitHubLogo from "../Images/GitHub.png";
 
 class Footer extends Component {
   constructor() {
