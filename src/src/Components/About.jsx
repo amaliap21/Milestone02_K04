@@ -152,14 +152,19 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1vVUXjE3n1dVu2Yqa0oJMy7dFi_yEo7yi"
+                      alt="Picture of Ignatius Jhon Kiel"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Ignatius Jhon </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Kiel. An Informatics Engineering student at
+                      Institut Teknologi Bandung, who's interested in Web Dev
+                      and Cybersecurity. Contact me at kielchanyeol@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
@@ -194,14 +199,19 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1VBXVHFyNMdz8eiQGvVCZRtpPV4jgHlV6"
+                      alt="Picture of Andhita Naura"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Andhita Naura </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hii, I'm Dhita. An Informatics Engineering student at
+                      Institut Teknologi Bandung who interested in Web Dev and
+                      AI. Contact me at andhitaanh@gmail.com.
                     </p>
                   </div>
                   <div class="trashguide-card">
