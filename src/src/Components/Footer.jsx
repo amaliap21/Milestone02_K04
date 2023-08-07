@@ -13,7 +13,7 @@ import {
 import "../css/styles.css";
 import { StyleSheet, css } from "aphrodite/no-important";
 
-import RecycleCanLight from "../Images/Recycle_Ontario_Light.png";
+import RecycleCanLight from "../Images/trashmap.svg";
 
 class Footer extends Component {
   constructor() {

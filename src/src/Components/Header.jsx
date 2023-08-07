@@ -12,13 +12,13 @@ import {
 import "../css/styles.css";
 import { StyleSheet, css } from "aphrodite/no-important";
 
-import RecycleCanLogo from "../Images/Recycle_Ontario.png";
+import RecycleCanLogo from "../Images/trashmap.svg";
 
 class Header extends Component {
   constructor() {
     super();
   }
-  
+
   chooseHeader() {
     if (this.props.page == 0) {
       return (
