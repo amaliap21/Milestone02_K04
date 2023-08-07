@@ -33,13 +33,14 @@ const article1 = (props) => {
             </h1>
           </div>
         </div>
-          <div className="fixedwidth">
-
-            <div id="header32">
-              <p id="descib">
-                
-              Sebagian kalangan menuding, kemasan botol dan galon plastik polyethylene terephthalate (PET) sekali pakai, sebagai sampah tak berguna. 
-              Padahal, sampah plastik jenis PET adalah bahan baku penting dalam industri daur ulang. Sampah plastik jenis PET berperan besar dalam ekonomi sirkular di Indonesia.<br></br>
+        <div className="fixedwidth">
+          <div id="header32">
+            <p id="descib">
+              Sebagian kalangan menuding, kemasan botol dan galon plastik
+              polyethylene terephthalate (PET) sekali pakai, sebagai sampah tak
+              berguna. Padahal, sampah plastik jenis PET adalah bahan baku
+              penting dalam industri daur ulang. Sampah plastik jenis PET
+              berperan besar dalam ekonomi sirkular di Indonesia.<br></br>
               <img src={tutupbotol}></img>
               <br></br>
               <br></br>
@@ -103,7 +104,8 @@ const article1 = (props) => {
               dikumpulkan dan dimanfaatkan kembali melalui proses daur ulang.
               <br />
               <br />
-              <br /><BoxLink to="/article">Back</BoxLink>
+              <br />
+              <BoxLink to="/article">Back</BoxLink>
             </p>
           </div>
         </div>

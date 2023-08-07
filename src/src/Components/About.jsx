@@ -18,6 +18,8 @@ function About() {
   return (
     <div>
       <Header page={4} />
+      <br />
+      <br />
       <section id="headerImgUs">
         <article>
           <div id="fixedWidth"></div>

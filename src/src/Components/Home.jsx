@@ -25,6 +25,8 @@ class Home extends Component {
     return (
       <div>
         <Header page={0} />
+        <br />
+        <br />
         <section id="headerImgIndex">
           <article>
             <div id="fixedWidth"></div>

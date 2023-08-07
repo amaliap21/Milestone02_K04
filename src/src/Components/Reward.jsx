@@ -24,6 +24,9 @@ class Reward extends Component {
     return (
       <div>
         <Header page={3} />
+        <br />
+        <br />
+
         <section id="headerImgReward">
           <article>
             <div id="fixedWidth"></div>

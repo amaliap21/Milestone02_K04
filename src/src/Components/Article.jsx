@@ -25,6 +25,8 @@ const Article = (props: Props) => {
   return (
     <div>
       <Header page={1} />
+      <br />
+      <br />
       <section id="headerImgArticle">
         <article>
           <div id="fixedWidth"></div>
@@ -43,7 +45,7 @@ const Article = (props: Props) => {
         </div>
       </section>
 
-      <div id="overviewGuide" style={{ paddingTop: "100px" }}>
+      <div id="overviewGuide">
         <div id="fixedWidth">
           <div
             id="articlepreview"
