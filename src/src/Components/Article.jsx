@@ -24,7 +24,6 @@ const BoxLink = styled(Link)`
 const Article = (props: Props) => {
   return (
     <div>
-      
       <Header page={1} />
       <section id="headerImgArticle">
         <article>
@@ -45,12 +44,14 @@ const Article = (props: Props) => {
       </section>
 
       <div id="overviewGuide" style={{ paddingTop: "100px" }}>
-
         <div id="fixedWidth">
-          <div id="desclongArticle" style={{ textAlign: "left" }}>
+          <div
+            id="articlepreview"
+            style={{ textAlign: "left", marginTop: "20px" }}
+          >
             <div id="header33">
               <h1 style={{ textAlign: "left" }}>
-                <b>Artikel Tentang Pengelolaan Sampah</b>
+                <b>Pengelolaan Sampah</b>
               </h1>
               <p
                 style={{
@@ -167,10 +168,13 @@ const Article = (props: Props) => {
                   paddingRight: "60px",
                 }}
               >
-                Manusia menghasilkan banyak sampah, baik organik maupun anorganik. 
-                Sampah organik dapat terurai dengan sendirinya di alam melalui proses alamiah. 
-                Sedangkan, sampah anorganik tidak dapat terurai sendiri dan memerlukan campur tangan manusia dalam mengelolanya.
-                Sampah anorganik yang tidak diolah dengan baik dapat memenuhi lautan dan tempat pembuangan sampah. Pada faktanya, sampah anorganik tidak ditangani dengan baik.
+                Manusia menghasilkan banyak sampah, baik organik maupun
+                anorganik. Sampah organik dapat terurai dengan sendirinya di
+                alam melalui proses alamiah. Sedangkan, sampah anorganik tidak
+                dapat terurai sendiri dan memerlukan campur tangan manusia dalam
+                mengelolanya. Sampah anorganik yang tidak diolah dengan baik
+                dapat memenuhi lautan dan tempat pembuangan sampah. Pada
+                faktanya, sampah anorganik tidak ditangani dengan baik.
                 <br />
                 <br />
                 <BoxLink to="/Article3">Read More</BoxLink>
@@ -187,7 +191,7 @@ const Article = (props: Props) => {
           >
             <div id="header33">
               <h1 style={{ textAlign: "left" }}>
-                <b>Lorem, ipsum dolor4.</b>
+                <b>Tantangan dan Harapan Pengelolaan Sampah di Indonesia</b>
               </h1>
               <p
                 style={{
@@ -196,15 +200,13 @@ const Article = (props: Props) => {
                   paddingRight: "60px",
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Ratione possimus cum, quasi delectus fugiat aliquid at ipsum
-                magnam temporibus officiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Culpa, debitis. Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Quaerat, enim. Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quasi, eum?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                deleniti maiores veniam nihil, harum minus dicta minima
-                perferendis consequuntur necessitatibus!
+                Jakarta Humas BRIN. Sampah telah menjadi masalah besar di negara
+                kita yang seringkali sulit diatasi. Deputi Kebijakan Pembangunan
+                Badan Riset dan Inovasi Nasional (BRIN), Mego Pinandito
+                menyebutkan, perlu bagi kita untuk melihat lagi lebih mendalam.
+                "Mungkin saja ada peluang untuk menjadikan sampah sebagai produk
+                yang bisa dicarikan alternatifnya menjadi produk lain yang
+                bermanfaat dan memiliki nilai ekonomi," tuturnya.
                 <br />
                 <br />
                 <BoxLink to="/Article4">Read More</BoxLink>
@@ -230,9 +232,14 @@ const Article = (props: Props) => {
                   paddingRight: "60px",
                 }}
               >
-                Sampah bisa berasal dari mana saja selama terdapat aktivitas kehidupan di daerah tersebut. 
-                Sampah bisa berasal dari rumah tangga, pasar, jalanan, fasilitas umum (terminal, stasiun, bandara), dan lain sebagainya. 
-                Sampah dapat diklasifikasikan atau dikelompokkan menjadi beberapa jenis, yaitu sampah berdasarkan jenisnya, sampah berdasarkan sumbernya, sampah berdasarkan bentuknya, dan sampah berdasarkan sifat-sifat biologis.
+                Sampah bisa berasal dari mana saja selama terdapat aktivitas
+                kehidupan di daerah tersebut. Sampah bisa berasal dari rumah
+                tangga, pasar, jalanan, fasilitas umum (terminal, stasiun,
+                bandara), dan lain sebagainya. Sampah dapat diklasifikasikan
+                atau dikelompokkan menjadi beberapa jenis, yaitu sampah
+                berdasarkan jenisnya, sampah berdasarkan sumbernya, sampah
+                berdasarkan bentuknya, dan sampah berdasarkan sifat-sifat
+                biologis.
                 <br />
                 <br />
                 <BoxLink to="/Article5">Read More</BoxLink>
@@ -258,13 +265,16 @@ const Article = (props: Props) => {
                   paddingRight: "60px",
                 }}
               >
-                Sampah seolah selalu jadi masalah tahunan bagi Kota Bandung. Terbaru, ada 30 TPS 
-                yang dinyatakan overcapacity oleh Pemkot Bandung. Tak jarang masyarakat mengunggah 
-                video betapa sampah menggunung di TPS hingga ke bahu jalan. Hal ini dikarenakan TPA Sarimukti sedang mengalami kendala. Kurangnya alat berat 
-                yang memadai, menggunungnya sampah pascalebaran, menjadi beberapa alasan sulitnya 
-                penyetoran sampah ke TPA Sarimukti. Kepala Dinas Lingkungan Hidup dan Kebersihan (DLHK) Kota Bandung Dudy Prayudi 
-                mengaku penumpukan sampah di tiap TPS bukan hanya soal kemacetan di Sarimukti, 
-                tapi juga karena kurangnya TPS di kota Bandung.
+                Sampah seolah selalu jadi masalah tahunan bagi Kota Bandung.
+                Terbaru, ada 30 TPS yang dinyatakan overcapacity oleh Pemkot
+                Bandung. Tak jarang masyarakat mengunggah video betapa sampah
+                menggunung di TPS hingga ke bahu jalan. Hal ini dikarenakan TPA
+                Sarimukti sedang mengalami kendala. Kurangnya alat berat yang
+                memadai, menggunungnya sampah pascalebaran, menjadi beberapa
+                alasan sulitnya penyetoran sampah ke TPA Sarimukti. Kepala Dinas
+                Lingkungan Hidup dan Kebersihan (DLHK) Kota Bandung Dudy Prayudi
+                mengaku penumpukan sampah di tiap TPS bukan hanya soal kemacetan
+                di Sarimukti, tapi juga karena kurangnya TPS di kota Bandung.
                 <br />
                 <br />
                 <BoxLink to="/Article6">Read More</BoxLink>
