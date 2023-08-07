@@ -4,6 +4,21 @@ import { Link } from "react-router";
 import Header from "../.././Header";
 import Footer from "../.././Footer";
 import tutupbotol from "../../../Images/sampahtutupbotol.svg";
+import styled from "styled-components";
+
+const BoxLink = styled(Link)`
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #ddd;
+  }
+`;
 
 const article1 = (props) => {
   return (
@@ -11,7 +26,6 @@ const article1 = (props) => {
       <Header page={1} />
       <div id="overviewArticle" style={{ paddingTop: "100px" }}>
         <div id="headerfill"></div>
-
         <div id="fixedwidth">
           <div id="header32">
             <h1 id="desctitle">
@@ -87,6 +101,9 @@ const article1 = (props) => {
               terus mendorong para pelaku usaha agar mempermudah pengelolaan
               sampah plastik dengan memperbesar ukuran produk, sehingga mudah
               dikumpulkan dan dimanfaatkan kembali melalui proses daur ulang.
+              <br />
+              <br />
+              <br /><BoxLink to="/article">Back</BoxLink>
             </p>
           </div>
         </div>

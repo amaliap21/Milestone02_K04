@@ -125,7 +125,7 @@
 
 #headerFill {
   width: 100%;
-  height: 120px;
+  height: 200px;
 }
 #headerFill2 {
   width: 100%;
@@ -251,9 +251,19 @@ section:nth-of-type(2) {
   left: 0;
   width: 100%;
 }
+#headerImgLocateUs > div:nth-of-type(1) {
+  background: url(../Images/locateus2.jpg) no-repeat fixed;
+  background-size: 100%;
+  margin: 0;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 #headerImgEwaste > div:nth-of-type(1) {
   background: url(../Images/ElectronicsBack.png) no-repeat fixed;
-  background-size: 100%  ;
+  background-size: 100%;
   margin: 0;
   height: 500px;
   position: absolute;
@@ -271,8 +281,30 @@ section:nth-of-type(2) {
   left: 0;
   width: 100%;
 }
+
 #headerImgPaint > div:nth-of-type(1) {
   background: url(../Images/PaintBack.png) no-repeat fixed;
+  background-size: 100%;
+  margin: 0;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#headerImgArticle > div:nth-of-type(1) {
+  background: url(../Images/articlebruh.jpeg) no-repeat fixed;
+  background-size: 100%;
+  margin: 0;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#headerImgReward > div:nth-of-type(1) {
+  background: url(../Images/rewardcuy.jpg) no-repeat fixed;
   background-size: 100%;
   margin: 0;
   height: 500px;
@@ -284,15 +316,13 @@ section:nth-of-type(2) {
 
 #headerImgUs > div:nth-of-type(1) {
   background: url(../Images/us.jpg) no-repeat fixed;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  bottom: 2000px;
   width: 100%;
 }
-
 /*
 #headerImg>div:nth-of-type(2) {
     margin: 0;
@@ -659,6 +689,28 @@ h2 span {
   position: relative;
   z-index: 20;
 }
+#overviewArticle3 {
+  overflow: hidden;
+  box-shadow: 0px -3px 10px 1px #333333;
+  width: 100%;
+  height: 2000px;
+  background-color: #ffffff;
+  font-style: FuturaKoya, Sans-Serif;
+  font-size: 0;
+  position: relative;
+  z-index: 20;
+}
+#overviewArticle5 {
+  overflow: hidden;
+  box-shadow: 0px -3px 10px 1px #333333;
+  width: 100%;
+  height: 2750px;
+  background-color: #ffffff;
+  font-style: FuturaKoya, Sans-Serif;
+  font-size: 0;
+  position: relative;
+  z-index: 20;
+}
 
 #overviewTerms {
   overflow: hidden;
@@ -828,6 +880,7 @@ h2 span {
   position: relative;
   margin-left: 200px;
   margin-right: 200px;
+  margin-top: 40px;
   width: 1000px;
   height: 75px;
   background-color: #eeeeee;
@@ -848,6 +901,33 @@ h2 span {
   position: relative;
   width: 1200;
   height: 3000px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #eeeeee;
+}
+#descib2 {
+  float: left;
+  position: relative;
+  width: 1200;
+  height: 1500px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #eeeeee;
+}
+#descib5 {
+  float: left;
+  position: relative;
+  width: 1200;
+  height: 2100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #eeeeee;
+}
+#descib3 {
+  float: left;
+  position: relative;
+  width: 1200;
+  height: 1600px;
   margin-left: 200px;
   margin-right: 200px;
   background-color: #eeeeee;
@@ -1275,7 +1355,6 @@ h2 span {
   padding: 0;
   font-size: 20;
   margin: 0;
- 
 }
 
 #cssmenu.align-right ul li {
@@ -1303,7 +1382,6 @@ h2 span {
   transition: color 0.25s;
   line-height: 140%;
   letter-spacing: -1px;
-  
 }
 
 #cssmenu ul li a:hover {
@@ -1443,10 +1521,15 @@ h2 span {
 
 #reward-container {
   padding: 20px 0;
+  font-family: RalewayBlk;
 }
 
 #hasil-reward {
   margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  font-family: RalewayBlk;
 }
 
 #TPS-container {
@@ -1454,6 +1537,13 @@ h2 span {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.TPS{
-  margin-left: 100px;
+@media (max-width: 768px) {
+  /* For screens with a maximum width of 768px or smaller */
+  #headerImgUs > div:nth-of-type(1) {
+    background-size: contain;
+  }
+}
+
+body {
+  background-color: #fff;
 }

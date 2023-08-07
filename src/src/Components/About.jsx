@@ -28,7 +28,7 @@ function About() {
           <div id="fixedWidthUs">
             <div id="window">
               <div id="textWindow">
-                <h1> About Us</h1>
+                <h1>Kenali Kita Lebih Lanjut Karena Tak Kenal Maka Tak Sayang</h1>
                 <h1> </h1>
               </div>
             </div>
@@ -125,14 +125,25 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1OiP4LrWSU2YF_QbGlIvWB-ioR_DjNTA-"
+                      alt="Picture of Indraswara Galih"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Indraswara Galih</h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Indra. An informatics engineering student at ITB.
+                      <br />
+                      Interested in WebDev,
+                      <br />
+                      SoftEng, GameDev. Contact
+                      <br />
+                      Me at Discord,
+                      <br />
+                      anotherexist#0
                     </p>
                   </div>
                   <div class="trashguide-card">
@@ -162,8 +173,13 @@ function About() {
 
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1y3u3n05tjDOhYyBWlQ2Vmtc2QCPcTJrH"
+                      alt="Picture of Timothy Haposan"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Timothy Haposan</h1>
                     <p>
@@ -194,11 +210,12 @@ function About() {
                         borderRadius: "100%",
                       }}
                     />
-                    <h1 class="trashguide-subtitle">Nyoman Ganadipa N. </h1>
+                    <h1 class="trashguide-subtitle">Nyoman Ganadipa</h1>
                     <p>
                       Hi, I'm Gana. A sophomore informatics engineering student
-                      at ITB. My Hobby is playing football but i also play
-                      tennis. Feel free to contact me at
+                      at ITB. My Hobby is playing football but i
+                      <br />
+                      also play tennis. Feel free to contact me at
                       nyomanganadipa@gmail.com
                     </p>
                   </div>
@@ -214,34 +231,46 @@ function About() {
                     />
                     <h1 class="trashguide-subtitle">Wisyendra Lunarmalam </h1>
                     <p>
-                      Helloo, watashi wa Wiswis. A student at information system
-                      and technology at ITB aka best campus fr fr. You can contact
-                      me at discord wiswis#0
+                      Helloo, watashi wa Wiswis. A student at information
+                      <br />
+                      system and technology at ITB aka best campus fr fr. You
+                      can contact me at Discord, wiswis#0
                     </p>
                   </div>
 
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1eJvpy0IIxiHbocFbkCZ643dbwXa6JzIk"
+                      alt="Picture of Mohamad Maulana"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Mohamad Maulana</h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Maul. An Information System and Technology Student
+                      at ITB. Interested in Data, Machine Learning and
+                      Artificial Intelligence. Contact me at
+                      maulanafirdaus63@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1wI7aUEQZdDh6vQt0_fWgNSqKKpT0SpRy"
+                      alt="Picture of Ibrahim Ihsan"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Ibrahim Ihsan</h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Informatics Engineering student at Institut Teknologi
+                      Bandung. Interested in AI/ML. Highly motivated to learn
+                      something new. Contact me at thamrinihsan@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
@@ -258,20 +287,31 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1Bmp4mQel5BJsRGaa1dsvhfC7x3lu-9fi"
+                      alt="Picture of Naomi Pricilla A."
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
-                    <h1 class="trashguide-subtitle">Naomi Pricilla </h1>
+                    <h1 class="trashguide-subtitle">Naomi Pricilla A. </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Naomi. A sophomore System and Information
+                      Technology student at ITB. My Hobby is listening to music
+                      and watching movies. Feel free to contact me at
+                      naomipricillaa16@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1jxXuxmUWJcxGjit0a7Jd5Sg_V1d0MNdD"
+                      alt="Picture of olas Jeremy"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Nicolas Jeremy </h1>
                     <p>

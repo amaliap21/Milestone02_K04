@@ -3,7 +3,21 @@ import { Switch, Route } from "react-router-dom";
 import { Link } from "react-router";
 import Header from "../.././Header";
 import Footer from "../.././Footer";
+import styled from "styled-components";
 
+const BoxLink = styled(Link)`
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #ddd;
+  }
+`;
 type Props = {};
 
 const article2 = (props: Props) => {
@@ -235,6 +249,8 @@ const article2 = (props: Props) => {
               dan belajar untuk lebih peduli dan berbuat sesuatu terhadap
               kelangsungan bumi kita. Menerapkan gaya hidup zero waste adalah
               salah satunya.
+              <br />
+              <br /><BoxLink to="/article">Back</BoxLink>
             </p>
           </div>
         </div>
