@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import ReactModal from "react-modal";
-
 import Header from "./Header";
 import Footer from "./Footer";
 import Logo from "../Images/Recycle_Ontario.png";
@@ -248,9 +246,9 @@ function About() {
                     />
                     <h1 class="trashguide-subtitle">Nicolas Jeremy </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Nicolas jeremy marulitua simanjuntak biasa dipanggil NJ, dari STI-J dengan nim tpb 19622228.
+                      Hobi basket dan asal daerah dari jakarta selatan
+
                     </p>
                   </div>
                 </div>
