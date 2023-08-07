@@ -169,14 +169,20 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=14Kf9gVRh10O9PjmAh4zZe2zSK6hnUH4B"
+                      alt="Picture of Nurul Hakim"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle"> Nurul Hakim</h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Hakim. An Information System and Technology
+                      Student at Bandung Institute of Technology. Interested in
+                      WebDev, Data Analyst, and Software Engineering Contact Me
+                      at mhmmd.hkm25@gmail.com
                     </p>
                   </div>
 
