@@ -28,9 +28,6 @@ import article6 from "./TrashGuide/Articles/Article6";
 import "../css/styles.css";
 import "../css/TrashGuide.css";
 
-import test from "../Components/TrashGuide/test";
-import Reward from "./Reward";
-
 // App.jsx is not 'actually necessary' but it follows accepted react architecture by always having an App.jsx main renderer
 class App extends Component {
   constructor(props) {
@@ -65,7 +62,6 @@ class App extends Component {
         <Route path="/Article6" component={article6} />
         <Route path="/about" component={About} />
         <Route path="/terms_privacy" component={Terms} />
-        <Route path="/test" component={test} />
       </Router>
     );
   }
