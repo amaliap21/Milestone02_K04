@@ -181,13 +181,19 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://drive.google.com/file/d/1DQwWUireL55XWge17dLScp4SgJaeWLMM/view?usp=drivesdk"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1DQwWUireL55XWge17dLScp4SgJaeWLMM"
+                      alt="Pic of Wisyendra Lunarmalam"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Wisyendra Lunarmalam </h1>
                     <p>
                       Helloo, watashi wa Wiswis. A student at information system
-                      and technology at ITB aka best campus fr fr. 
+                      and technology at ITB aka best campus fr fr. You can contact
+                      me at discord wiswis#0
                     </p>
                   </div>
 
