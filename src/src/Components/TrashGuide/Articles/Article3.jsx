@@ -3,6 +3,21 @@ import { Switch, Route } from 'react-router-dom';
 import {Link} from 'react-router';
 import Header from '../.././Header';
 import Footer from '../.././Footer';
+import styled from "styled-components";
+
+const BoxLink = styled(Link)`
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #ddd;
+  }
+`;
 
 type Props = {}
 
@@ -22,7 +37,7 @@ const article3 = (props: Props) => {
             </div>
 
            <div id="header32">
-              <p id="descib">
+              <p id="descib2">
               Manusia menghasilkan banyak sampah, baik organik maupun anorganik. 
               Sampah organik dapat terurai dengan sendirinya di alam melalui proses alamiah. 
               Sedangkan, sampah anorganik tidak dapat terurai sendiri dan memerlukan campur tangan manusia dalam mengelolanya.
@@ -75,9 +90,13 @@ const article3 = (props: Props) => {
               <br />
               <br />
               Seseorang bisa menderita berbagai penyakit yang disebabkan oleh sampah, seperti asma, kanker, penyakit kardiovaskular, kanker anak, COPD, BBLR, cacat lahir, dan kelahiran prematur. Sampah juga menyebabkan penyakit oleh bakteri dan virus, seperti diare, disentri, tifus, kolera, jamur dan berbagai macam penyakit kulit.
+              <br />
+              <br />
+              <BoxLink to="/article">Back</BoxLink>
               </p>
             </div>  
           </div>
+
           <Footer/>
       </div>
     </div>
