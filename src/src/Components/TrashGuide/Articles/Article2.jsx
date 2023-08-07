@@ -250,7 +250,8 @@ const article2 = (props: Props) => {
               kelangsungan bumi kita. Menerapkan gaya hidup zero waste adalah
               salah satunya.
               <br />
-              <br /><BoxLink to="/article">Back</BoxLink>
+              <br />
+              <BoxLink to="/article">Back</BoxLink>
             </p>
           </div>
         </div>

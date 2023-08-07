@@ -3,6 +3,21 @@ import { Switch, Route } from "react-router-dom";
 import { Link } from "react-router";
 import Header from "../.././Header";
 import Footer from "../.././Footer";
+import styled from "styled-components";
+
+const BoxLink = styled(Link)`
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #ddd;
+  }
+`;
 
 type Props = {};
 
@@ -127,6 +142,9 @@ const article4 = (props: Props) => {
               “Sampah merupakan masalah kita bersama, tidak mungkin jika hanya
               satu pihak yang berusaha tidak akan mampu menangani masalah sampah
               ini,” tutup Wahyudi.
+              <br />
+              <br />
+              <BoxLink to="/article">Back</BoxLink>
             </p>
           </div>
         </div>
