@@ -4,7 +4,6 @@ import { Link } from "react-router";
 import Header from "./Header";
 import Footer from "./Footer";
 
-import iPhonePromo1 from "../Images/iPhone_Icon_Promo_AvailibleAppStore.png";
 import ComputerArt from "../Images/computer_Art.jpg";
 import Ewaste3 from "../Images/E-waste3.jpg";
 import MapLocate from "../Images/mapLocate.png";
@@ -39,7 +38,7 @@ class Home extends Component {
                 <div id="textWindow">
                   <h1>
                     {" "}
-                    Recycle Your Electronics, Batteries, And Paint In Canada{" "}
+                    Olah Sampahmu, Olah Lingkunganmu, Lindungi Bumi Kita{" "}
                   </h1>
                   <h1> </h1>
                 </div>
@@ -50,39 +49,6 @@ class Home extends Component {
 
         <div id="overviewI">
           <div id="fixedWidth">
-            <div id="Drawing">
-              <a href="https://itunes.apple.com/us/app/recycle-can/id1248915926?ls=1&mt=8">
-                <img src={iPhonePromo1} width="100%" height="100%" />
-              </a>
-            </div>
-            <div id="desc">
-              <div id="header3">
-                <h1>
-                  <b>Download The Official Recycle Can iOS App!</b>
-                </h1>
-                <h1>
-                  <p>
-                    Recycling electronics has never been easier! Download our
-                    official iOS application for a mobile, versatile experience
-                    that seemlessly integrates Apple's Mapkit for enhanced
-                    navigational tools!
-                  </p>
-                  <a href="https://itunes.apple.com/us/app/recycle-can/id1248915926?ls=1&mt=8">
-                    <p>Download Here</p>
-                  </a>
-                </h1>
-              </div>
-            </div>
-          </div>
-
-          <div id="fixedWidth">
-            <div id="Drawing2Loc">
-              <div id="leftFill"></div>
-              <div id="rightFill"></div>
-            </div>
-          </div>
-
-          <div id="fixedWidth">
             <div id="Drawing3">
               <img src={ComputerArt} width="100%" height="100%" />
             </div>
@@ -90,16 +56,22 @@ class Home extends Component {
               <div id="header3">
                 <h1>
                   <b>
-                  Pentingnya Mendaur Ulang Elektronik, Baterai, dan Bahan Berbahaya Rumah Tangga
+                    Pentingnya Mendaur Ulang Elektronik, Baterai, dan Bahan
+                    Berbahaya Rumah Tangga
                   </b>
                 </h1>
                 <h1>
                   <p>
-                  Di abad ke-21, banyak elektronik, baterai, dan cat mengandung bahan beracun 
-                  seperti timah, merkuri, atau yang paling umum adalah gas beracun, yang dapat terlepas ke lingkungan ketika dibuang secara tidak benar. 
-                  Sifat beracun ini membuat bahan-bahan tersebut tidak layak untuk dibuang di tempat pembuangan sampah konvensional. 
-                  Dengan Recycle Can, kami menyediakan alat nasional yang memberikan lokasi 
-                  terdekat untuk mendaur ulang bahan-bahan berbahaya dari rumah Anda di tempat pengumpulan yang aman dan disetujui oleh pemerintah.
+                    Di abad ke-21, banyak elektronik, baterai, dan cat
+                    mengandung bahan beracun seperti timah, merkuri, atau yang
+                    paling umum adalah gas beracun, yang dapat terlepas ke
+                    lingkungan ketika dibuang secara tidak benar. Sifat beracun
+                    ini membuat bahan-bahan tersebut tidak layak untuk dibuang
+                    di tempat pembuangan sampah konvensional. Dengan Recycle
+                    Can, kami menyediakan alat nasional yang memberikan lokasi
+                    terdekat untuk mendaur ulang bahan-bahan berbahaya dari
+                    rumah Anda di tempat pengumpulan yang aman dan disetujui
+                    oleh pemerintah.
                   </p>
                 </h1>
               </div>
@@ -124,11 +96,15 @@ class Home extends Component {
                 </h1>
                 <h1>
                   <p>
-                  Bahan berbahaya rumah tangga yang tumbuh dengan cepat adalah limbah elektronik, yang dikenal sebagai e-waste. 
-                  Dengan konsumen yang tampaknya mengganti elektronik lama mereka, seperti ponsel, setiap dua tahun sekali, 
-                  terdapat tumpukan e-waste yang semakin bertambah yang perlu dibuang. 
-                  Dalam banyak kasus, limbah tersebut dipilah-pilah oleh pekerja di negara-negara dunia ketiga untuk mendapatkan logam langka, 
-                  tetapi hal ini membuat mereka terpapar elemen berbahaya seperti gas beracun, timah, merkuri, atau bahkan arsenik.
+                    Bahan berbahaya rumah tangga yang tumbuh dengan cepat adalah
+                    limbah elektronik, yang dikenal sebagai e-waste. Dengan
+                    konsumen yang tampaknya mengganti elektronik lama mereka,
+                    seperti ponsel, setiap dua tahun sekali, terdapat tumpukan
+                    e-waste yang semakin bertambah yang perlu dibuang. Dalam
+                    banyak kasus, limbah tersebut dipilah-pilah oleh pekerja di
+                    negara-negara dunia ketiga untuk mendapatkan logam langka,
+                    tetapi hal ini membuat mereka terpapar elemen berbahaya
+                    seperti gas beracun, timah, merkuri, atau bahkan arsenik.
                   </p>
                 </h1>
               </div>
@@ -161,16 +137,11 @@ class Home extends Component {
                   <b>Use Our Locator To Find A Nearby Collection Site.</b>
                 </h1>
                 <h1>
-                  <a href="E-waste.html">
-                    <p>For E-Waste</p>
-                  </a>
-                  <a href="Batteries.html">
-                    <p>For Batteries</p>
-                  </a>
-
-                  <a href="Paint.html">
-                    <p>For Other Hazardous Materials</p>
-                  </a>
+                  <Link to="/LocateUs">
+                    <div>
+                      <h5 id="Locate">Locate Us</h5>
+                    </div>
+                  </Link>
                 </h1>
               </div>
             </div>

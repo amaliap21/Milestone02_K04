@@ -29,12 +29,12 @@ class Reward extends Component {
             <div id="fixedWidth"></div>
           </article>
 
-          <div class="parallax" data-velocity="-.3"></div>
-          <div class="parallax" data-velocity="-.2" data-fit="525">
+          <div className="parallax" data-velocity="-.3"></div>
+          <div className="parallax" data-velocity="-.2" data-fit="525">
             <div id="fixedWidth">
               <div id="window">
                 <div id="textWindow">
-                  <h1> Recycle Your Paint </h1>
+                  <h1> Tukar Sampahmu dengan Rupiah</h1>
                   <h1> </h1>
                 </div>
               </div>
@@ -44,38 +44,10 @@ class Reward extends Component {
         <section style={{ backgroundColor: "#333" }}>
           <FormConversionRate />
         </section>
-        <div id="overviewE" style={{ height: "900px" }}>
-          <div id="fixedWidth">
-            <div id="desclong3">
-              <div id="header3">
-                <h1>
-                  <b>Enter Your Address or Postal Code To Begin</b>
-                </h1>
-              </div>
-            </div>
-          </div>
 
-          <p id="demo"></p>
-
-          <div id="fixedWidthM" style={{ width: "100%" }}>
-            <input
-              id="pac-input"
-              class="controls"
-              type="text"
-              placeholder="Search Box"
-              disabled
-              style={{ opacity: "0" }}
-            />
-            <div style={{ backgroundColor: "#333" }} />
-
-            {/* 45.248786,-76.3607093 */}
-
-            {/* {this.numberFilesToRender()} */}
-            {/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHlW8YibL2zp7mdBSNeT81AYVaxHuOk3A&libraries=places&callback=initAutocomplete" async defer></script> */}
-          </div>
-
+        <section>
           <Footer />
-        </div>
+        </section>
       </div>
     );
   }
@@ -129,69 +101,72 @@ class FormConversionRate extends Component {
     const { organicWeight, metalWeight, plasticWeight } = this.state;
     return (
       <section>
-        <div>
+        <div className="container" id="reward-container">
           <form
-            style={{ display: "flex", flexDirection: "column" }}
+            // style={{ display: "flex", flexDirection: "column" }}
             onSubmit={this.handleSubmit}
           >
-            <ul>
-              <li>
-                <label for="organik">Berat sampah organik (gram):</label>
-                <input
-                  style={this.styleInput}
-                  id="organik"
-                  type="text"
-                  value={this.state.organicWeight}
-                  onChange={this.onChange}
-                  name="organicWeight"
-                  onKeyPress={this.handleKeyPress}
-                />
-                <br />
-                <label for="organik" style={{ fontSize: "0.5em" }}>
-                  Harga sampah organik adalah Rp500,- /100 gram
-                </label>
-              </li>
-              <li>
-                <label for="logam">Berat sampah logam (gram):</label>
-                <input
-                  style={this.styleInput}
-                  id="logam"
-                  type="text"
-                  value={this.state.metalWeight}
-                  onChange={this.onChange}
-                  name="metalWeight"
-                  onKeyPress={this.handleKeyPress}
-                />
-                <br />
-                <label for="logam" style={{ fontSize: "0.5em" }}>
-                  Harga sampah logam adalah Rp1.000,- /100 gram
-                </label>
-              </li>
-              <li>
-                <label for="plastik">Berat sampah plastik (gram):</label>
-                <input
-                  id="plastik"
-                  style={this.styleInput}
-                  type="text"
-                  value={this.state.plasticWeight}
-                  onChange={this.onChange}
-                  name="plasticWeight"
-                  onKeyPress={this.handleKeyPress}
-                />
-                <br />
-                <label for="plastik" style={{ fontSize: "0.5em" }}>
-                  Harga sampah plastik adalah Rp2.000,- /100 gram
-                </label>
-              </li>
+            <div className="form-group">
+              <label for="organik">Berat sampah organik (gram):</label>
+              <input
+                id="organik"
+                type="text"
+                value={this.state.organicWeight}
+                onChange={this.onChange}
+                name="organicWeight"
+                onKeyPress={this.handleKeyPress}
+                className="form-control"
+              />
+              <label for="organik" style={{ fontSize: "0.5em" }}>
+                Harga sampah organik adalah Rp500,- /100 gram
+              </label>
+            </div>
 
-              <li>
-                <button type="submit">Submit</button>
-              </li>
-            </ul>
+            <br />
+
+            <div className="form-group">
+              <label for="logam">Berat sampah logam (gram):</label>
+              <input
+                id="logam"
+                type="text"
+                value={this.state.metalWeight}
+                onChange={this.onChange}
+                name="metalWeight"
+                onKeyPress={this.handleKeyPress}
+                className="form-control"
+              />
+              <label for="logam" style={{ fontSize: "0.5em" }}>
+                Harga sampah logam adalah Rp1.000,- /100 gram
+              </label>
+            </div>
+
+            <br />
+
+            <div className="form-group">
+              <label for="plastik">Berat sampah plastik (gram):</label>
+              <input
+                id="plastik"
+                type="text"
+                value={this.state.plasticWeight}
+                onChange={this.onChange}
+                name="plasticWeight"
+                onKeyPress={this.handleKeyPress}
+                className="form-control"
+              />
+              <label for="plastik" style={{ fontSize: "0.5em" }}>
+                Harga sampah plastik adalah Rp2.000,- /100 gram
+              </label>
+            </div>
+
+            <br />
+
+            <div className="form-group">
+              <button type="submit">Submit</button>
+            </div>
           </form>
         </div>
         {this.state.haveSubmitted ? (
-          <div>
+          <div id="hasil-reward">
             <text>Reward untuk pembuangan sampah</text>
             <ul>
               <li>organik: {this.submittedWeight.organic * 5 || 0} rupiah</li>
