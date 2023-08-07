@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactModal from "react-modal";
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -109,14 +108,19 @@ function About() {
                 <div class="trashguide-list">
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1CQKqxZ644rq2FGiLbBajdXEzrCGFeFTJ"
+                      alt="Picture of Amalia Putri"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Amalia Putri</h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Amel. A sophomore informatics engineering student
+                      at ITB. My Hobby is playing table tennis. Feel free to
+                      contact me at amaliaputriii2104@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
@@ -182,26 +186,37 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1LpSAZwWiQu5NM_8e7RMKXqJd2yTAbiLo"
+                      alt="Picture of Nyoman Ganadipa Narayana"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
-                    <h1 class="trashguide-subtitle">Nyoman Ganadipa </h1>
+                    <h1 class="trashguide-subtitle">Nyoman Ganadipa N. </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Gana. A sophomore informatics engineering student
+                      at ITB. My Hobby is playing football but i also play
+                      tennis. Feel free to contact me at
+                      nyomanganadipa@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1DQwWUireL55XWge17dLScp4SgJaeWLMM"
+                      alt="Pic of Wisyendra Lunarmalam"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Wisyendra Lunarmalam </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Helloo, watashi wa Wiswis. A student at information system
+                      and technology at ITB aka best campus fr fr. You can contact
+                      me at discord wiswis#0
                     </p>
                   </div>
 
@@ -260,9 +275,9 @@ function About() {
                     />
                     <h1 class="trashguide-subtitle">Nicolas Jeremy </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Nicolas jeremy marulitua simanjuntak biasa dipanggil NJ,
+                      dari STI-J dengan nim tpb 19622228. Hobi basket dan asal
+                      daerah dari jakarta selatan
                     </p>
                   </div>
                 </div>
