@@ -136,8 +136,14 @@ function About() {
                     <h1 class="trashguide-subtitle">Indraswara Galih</h1>
                     <p>
                       Hi, I'm Indra. An informatics engineering student at ITB.
-                      Interested in WebDev, SoftEng, GameDev. Contact Me at
-                      indrswaragalihjayanegara@gmail.com
+                      <br />
+                      Interested in WebDev,
+                      <br />
+                      SoftEng, GameDev. Contact
+                      <br />
+                      Me at Discord,
+                      <br />
+                      anotherexist#0
                     </p>
                   </div>
                   <div class="trashguide-card">
@@ -204,11 +210,12 @@ function About() {
                         borderRadius: "100%",
                       }}
                     />
-                    <h1 class="trashguide-subtitle">Nyoman Ganadipa N. </h1>
+                    <h1 class="trashguide-subtitle">Nyoman Ganadipa</h1>
                     <p>
                       Hi, I'm Gana. A sophomore informatics engineering student
-                      at ITB. My Hobby is playing football but i also play
-                      tennis. Feel free to contact me at
+                      at ITB. My Hobby is playing football but i
+                      <br />
+                      also play tennis. Feel free to contact me at
                       nyomanganadipa@gmail.com
                     </p>
                   </div>
@@ -224,9 +231,10 @@ function About() {
                     />
                     <h1 class="trashguide-subtitle">Wisyendra Lunarmalam </h1>
                     <p>
-                      Helloo, watashi wa Wiswis. A student at information system
-                      and technology at ITB aka best campus fr fr. You can
-                      contact me at discord wiswis#0
+                      Helloo, watashi wa Wiswis. A student at information
+                      <br />
+                      system and technology at ITB aka best campus fr fr. You
+                      can contact me at Discord, wiswis#0
                     </p>
                   </div>
 
@@ -243,9 +251,9 @@ function About() {
                     <h1 class="trashguide-subtitle">Mohamad Maulana</h1>
                     <p>
                       Hi, I'm Maul. An Information System and Technology Student
-                      at Bandung Institute of Technology student. Interested in
-                      Data, Machine Learning and Artificial Intelligence.
-                      Contact me at maulanafirdaus63@gmail.com
+                      at ITB. Interested in Data, Machine Learning and
+                      Artificial Intelligence. Contact me at
+                      maulanafirdaus63@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
