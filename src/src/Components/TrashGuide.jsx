@@ -153,7 +153,7 @@ const TrashGuide = (props: Props) => {
           >
             <div id="header33">
               <h1 style={{ textAlign: "left" }}>
-                <b>Lorem, ipsum dolor3.</b>
+                <b>Dampak Sampah terhadap Lingkungan Alam dan Kesehatan Kita</b>
               </h1>
               <p
                 style={{
@@ -162,15 +162,10 @@ const TrashGuide = (props: Props) => {
                   paddingRight: "60px",
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Ratione possimus cum, quasi delectus fugiat aliquid at ipsum
-                magnam temporibus officiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Culpa, debitis. Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Quaerat, enim. Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quasi, eum?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                deleniti maiores veniam nihil, harum minus dicta minima
-                perferendis consequuntur necessitatibus!
+                Manusia menghasilkan banyak sampah, baik organik maupun anorganik. 
+                Sampah organik dapat terurai dengan sendirinya di alam melalui proses alamiah. 
+                Sedangkan, sampah anorganik tidak dapat terurai sendiri dan memerlukan campur tangan manusia dalam mengelolanya.
+                Sampah anorganik yang tidak diolah dengan baik dapat memenuhi lautan dan tempat pembuangan sampah. Pada faktanya, sampah anorganik tidak ditangani dengan baik.
                 <br />
                 <br />
                 <BoxLink to="/Article3">Read More</BoxLink>
