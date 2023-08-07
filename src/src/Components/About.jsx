@@ -295,14 +295,19 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1mmKMzJJ5FsrdVyjw9NhSuSCBa1c9NDJ8"
+                      alt="Picture of Hanief Fatkhan"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle"> Hanief Fatkhan</h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Hanief. A sophomore informatics engineering
+                      student at ITB. My Hobby is playing football. Feel free to
+                      contact me at hanieffatkhan@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
