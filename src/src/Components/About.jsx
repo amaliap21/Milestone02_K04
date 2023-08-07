@@ -323,8 +323,8 @@ function About() {
                     <h1 class="trashguide-subtitle">Naomi Pricilla A. </h1>
                     <p>
                       Hi, I'm Naomi. A sophomore System and Information
-                      Technology student at ITB. My Hobby is listening to music
-                      and watching movies. Feel free to contact me at
+                      Technology student at ITB. My Hobbies are listening to
+                      music and watching movies. Feel free to contact me at
                       naomipricillaa16@gmail.com
                     </p>
                   </div>
