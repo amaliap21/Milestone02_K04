@@ -221,7 +221,7 @@ const Article = (props: Props) => {
           >
             <div id="header33">
               <h1 style={{ textAlign: "left" }}>
-                <b>Lorem, ipsum dolor5.</b>
+                <b>Jenis-jenis Sampah berdasarkan Klasifikasinya</b>
               </h1>
               <p
                 style={{
@@ -230,15 +230,9 @@ const Article = (props: Props) => {
                   paddingRight: "60px",
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Ratione possimus cum, quasi delectus fugiat aliquid at ipsum
-                magnam temporibus officiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Culpa, debitis. Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Quaerat, enim. Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quasi, eum?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                deleniti maiores veniam nihil, harum minus dicta minima
-                perferendis consequuntur necessitatibus!
+                Sampah bisa berasal dari mana saja selama terdapat aktivitas kehidupan di daerah tersebut. 
+                Sampah bisa berasal dari rumah tangga, pasar, jalanan, fasilitas umum (terminal, stasiun, bandara), dan lain sebagainya. 
+                Sampah dapat diklasifikasikan atau dikelompokkan menjadi beberapa jenis, yaitu sampah berdasarkan jenisnya, sampah berdasarkan sumbernya, sampah berdasarkan bentuknya, dan sampah berdasarkan sifat-sifat biologis.
                 <br />
                 <br />
                 <BoxLink to="/Article5">Read More</BoxLink>
@@ -255,7 +249,7 @@ const Article = (props: Props) => {
           >
             <div id="header33">
               <h1 style={{ textAlign: "left" }}>
-                <b>Lorem, ipsum dolor6.</b>
+                <b>Persoalan Sampah yang Menjerat Kota Bandung</b>
               </h1>
               <p
                 style={{
@@ -264,15 +258,13 @@ const Article = (props: Props) => {
                   paddingRight: "60px",
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Ratione possimus cum, quasi delectus fugiat aliquid at ipsum
-                magnam temporibus officiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Culpa, debitis. Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Quaerat, enim. Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quasi, eum?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                deleniti maiores veniam nihil, harum minus dicta minima
-                perferendis consequuntur necessitatibus!
+                Sampah seolah selalu jadi masalah tahunan bagi Kota Bandung. Terbaru, ada 30 TPS 
+                yang dinyatakan overcapacity oleh Pemkot Bandung. Tak jarang masyarakat mengunggah 
+                video betapa sampah menggunung di TPS hingga ke bahu jalan. Hal ini dikarenakan TPA Sarimukti sedang mengalami kendala. Kurangnya alat berat 
+                yang memadai, menggunungnya sampah pascalebaran, menjadi beberapa alasan sulitnya 
+                penyetoran sampah ke TPA Sarimukti. Kepala Dinas Lingkungan Hidup dan Kebersihan (DLHK) Kota Bandung Dudy Prayudi 
+                mengaku penumpukan sampah di tiap TPS bukan hanya soal kemacetan di Sarimukti, 
+                tapi juga karena kurangnya TPS di kota Bandung.
                 <br />
                 <br />
                 <BoxLink to="/Article6">Read More</BoxLink>
