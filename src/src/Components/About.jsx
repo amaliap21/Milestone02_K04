@@ -162,14 +162,20 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1Es5hdhP1ZyZ5G2M0-paaFvJoBC_XYmbM"
+                      alt="Picture of Nyoman Ganadipa Narayana"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
-                    <h1 class="trashguide-subtitle">Nyoman Ganadipa </h1>
+                    <h1 class="trashguide-subtitle">Nyoman Ganadipa N. </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Gana. A sophomore informatics engineering student
+                      at ITB. My Hobby is playing football but i also play
+                      tennis. Feel free to contact me at
+                      nyomanganadipa@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
