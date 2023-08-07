@@ -162,7 +162,7 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://drive.google.com/uc?export=view&id=1Es5hdhP1ZyZ5G2M0-paaFvJoBC_XYmbM"
+                      src="https://drive.google.com/uc?export=view&id=1LpSAZwWiQu5NM_8e7RMKXqJd2yTAbiLo"
                       alt="Picture of Nyoman Ganadipa Narayana"
                       style={{
                         width: "120px",
