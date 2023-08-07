@@ -227,6 +227,16 @@ section {
   overflow: hidden;
 }
 
+footer {
+  min-height: 200px;
+  position: relative;
+  width: 100% !important;
+  min-width: 1000px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 section:nth-of-type(1) {
   background: whitesmoke;
   height: 500px;
@@ -623,7 +633,6 @@ h2 span {
   overflow: hidden;
   box-shadow: 0px -3px 10px 1px #333333;
   width: 100%;
-  height: 1250px;
   background-color: #ffffff;
   font-style: FuturaKoya, Sans-Serif;
   font-size: 0;
@@ -635,7 +644,6 @@ h2 span {
   overflow: hidden;
   box-shadow: 0px -3px 10px 1px #333333;
   width: 100%;
-  height: 4000px;
   background-color: #ffffff;
   margin-top: 0;
   font-style: FuturaKoya, Sans-Serif;
@@ -659,7 +667,6 @@ h2 span {
   overflow: hidden;
   box-shadow: 0px -3px 10px 1px #333333;
   width: 100%;
-  height: 3750px;
   background-color: #ffffff;
   font-style: FuturaKoya, Sans-Serif;
   font-size: 0;
@@ -773,7 +780,7 @@ h2 span {
 #overviewI {
   box-shadow: 0px -3px 10px 1px #333333;
   width: 100%;
-  height: 2200px;
+  /* height: 2200px; */
   background-color: #ffffff;
   font-style: FuturaKoya, Sans-Serif;
   font-size: 0;

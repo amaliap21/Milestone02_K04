@@ -283,7 +283,9 @@ const Article = (props: Props) => {
             </div>
           </div>
         </div>
-        <Footer />
+        <footer>
+          <Footer />
+        </footer>
       </div>
     </div>
   );

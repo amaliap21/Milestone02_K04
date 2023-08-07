@@ -45,9 +45,9 @@ class Reward extends Component {
           <FormConversionRate />
         </section>
 
-        <section>
+        <footer>
           <Footer />
-        </section>
+        </footer>
       </div>
     );
   }
