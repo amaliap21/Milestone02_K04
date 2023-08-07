@@ -12,13 +12,13 @@ import {
 import "../css/styles.css";
 import { StyleSheet, css } from "aphrodite/no-important";
 
-import RecycleCanLogo from "../Images/Recycle_Ontario.png";
+import RecycleCanLogo from "../Images/trashmap.svg";
 
 class Header extends Component {
   constructor() {
     super();
   }
-  
+
   chooseHeader() {
     if (this.props.page == 0) {
       return (
@@ -29,8 +29,8 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/trashguide">
-              <span>Trash Guide</span>
+            <Link to="/article">
+              <span>Article</span>
             </Link>
           </li>
           <li>
@@ -59,8 +59,8 @@ class Header extends Component {
             </Link>
           </li>
           <li className="active">
-            <Link to="/trashguide">
-              <span>Trash Guide</span>
+            <Link to="/article">
+              <span>Article</span>
             </Link>
           </li>
           <li>
@@ -89,8 +89,8 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/trashguide">
-              <span>Trash Guide</span>
+            <Link to="/article">
+              <span>Article</span>
             </Link>
           </li>
           <li className="active">
@@ -119,8 +119,8 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/trashguide">
-              <span>Trash Guide</span>
+            <Link to="/article">
+              <span>Article</span>
             </Link>
           </li>
           <li>
@@ -149,8 +149,8 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/trashguide">
-              <span>Trash Guide</span>
+            <Link to="/article">
+              <span>Article</span>
             </Link>
           </li>
           <li>
@@ -179,8 +179,8 @@ class Header extends Component {
             </Link>
           </li>
           <li>
-            <Link to="/trashguide">
-              <span>Trash Guide</span>
+            <Link to="/article">
+              <span>Article</span>
             </Link>
           </li>
           <li>
@@ -241,7 +241,7 @@ class Header extends Component {
             {/* <Link to='/'><span>Home</span></Link>&nbsp;
             <Link to='/locateus'><span>Home</span></Link> */}
 
-            {/* <li><Link to='/trashguide'><span>trashguide</span></Link>&nbsp</li>
+            {/* <li><Link to='/article'><span>article</span></Link>&nbsp</li>
             <li><Link to='/locateus'><span>Batteries</span></Link>&nbsp</li>
             <li><Link to='/Reward'><span>Reward</span></Link>&nbsp</li>
             <li><Link to='/About'><span>About</span></Link>&nbsp</li> */}

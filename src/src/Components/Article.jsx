@@ -24,22 +24,27 @@ const BoxLink = styled(Link)`
 const TrashGuide = (props: Props) => {
   return (
     <div>
+      
       <Header page={1} />
-      <div id="overviewGuide" style={{ paddingTop: "100px" }}>
-        <div id="headerFill2"></div>
+      <section id="headerImgPaint">
+        <article>
+          <div id="fixedWidth"></div>
+        </article>
 
-        <div id="fixedWidth">
-          <div id="desclong4">
-            <div id="header32">
-              <h1 style={{ paddingTop: "25px" }}>Trash Guides</h1>
+        <div className="parallax" data-velocity="-.3"></div>
+        <div className="parallax" data-velocity="-.2" data-fit="525">
+          <div id="fixedWidth">
+            <div id="window">
+              <div id="textWindow">
+                <h1> Article</h1>
+                <h1> </h1>
+              </div>
             </div>
           </div>
-          <div id="leftFill"></div>
-
-          <div id="logodivBig"></div>
-
-          <div id="rightFill"></div>
         </div>
+      </section>
+
+      <div id="overviewGuide" style={{ paddingTop: "100px" }}>
 
         <div id="fixedWidth">
           <div id="desclongtrashguide" style={{ textAlign: "left" }}>
