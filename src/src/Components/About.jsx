@@ -28,7 +28,7 @@ function About() {
           <div id="fixedWidthUs">
             <div id="window">
               <div id="textWindow">
-                <h1> About Us</h1>
+                <h1>Kenali Kita Lebih Lanjut Karena Tak Kenal Maka Tak Sayang</h1>
                 <h1> </h1>
               </div>
             </div>
