@@ -21,7 +21,7 @@ const BoxLink = styled(Link)`
   }
 `;
 
-const TrashGuide = (props: Props) => {
+const Article = (props: Props) => {
   return (
     <div>
       
@@ -36,7 +36,7 @@ const TrashGuide = (props: Props) => {
           <div id="fixedWidth">
             <div id="window">
               <div id="textWindow">
-                <h1> Article</h1>
+                <h1> Tambah Wawasanmu Dengan Membaca Artikel</h1>
                 <h1> </h1>
               </div>
             </div>
@@ -47,7 +47,7 @@ const TrashGuide = (props: Props) => {
       <div id="overviewGuide" style={{ paddingTop: "100px" }}>
 
         <div id="fixedWidth">
-          <div id="desclongtrashguide" style={{ textAlign: "left" }}>
+          <div id="desclongArticle" style={{ textAlign: "left" }}>
             <div id="header33">
               <h1 style={{ textAlign: "left" }}>
                 <b>Artikel Tentang Pengelolaan Sampah</b>
@@ -292,4 +292,4 @@ const TrashGuide = (props: Props) => {
   );
 };
 
-export default TrashGuide;
+export default Article;

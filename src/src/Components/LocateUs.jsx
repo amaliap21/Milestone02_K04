@@ -9,12 +9,29 @@ export default function LocateUs() {
       <Header page={2} />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <section id="headerImgLocateUs">
+          <article>
+            <div id="fixedWidth"></div>
+          </article>
 
-      <div style={{ textAlign: "center", height: "80px" }}>
+          <div class="parallax" data-velocity="-.3"></div>
+
+          <div class="parallax" data-velocity="-.2" data-fit="525">
+            <div id="fixedWidth">
+              <div id="window">
+                <div id="textWindow">
+                  <h1>
+                    {" "}
+                    Cari TPS-nya lalu buang sampahnya{" "}
+                  </h1>
+                  <h1> </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      <div style={{ textAlign: "center", height: "80px", marginTop: "75px"}}>
         <h1>Lokasi Penukaran Sampah</h1>
         <p>Pilih lokasi penukaran sesuai jenis sampah yang ingin ditukar!</p>
       </div>
