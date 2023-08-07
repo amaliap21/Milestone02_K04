@@ -292,6 +292,16 @@ section:nth-of-type(2) {
   left: 0;
   width: 100%;
 }
+#headerImgArticle > div:nth-of-type(1) {
+  background: url(../Images/articlebruh.jpeg) no-repeat fixed;
+  background-size: 100%;
+  margin: 0;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 #headerImgReward > div:nth-of-type(1) {
   background: url(../Images/rewardcuy.jpg) no-repeat fixed;
@@ -1460,7 +1470,7 @@ h2 span {
 #hasil-reward {
   margin: 0 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row ;
   height: 100px ;
   font-family: RalewayBlk;
 }

@@ -26,7 +26,7 @@ const Article = (props: Props) => {
     <div>
       
       <Header page={1} />
-      <section id="headerImgPaint">
+      <section id="headerImgArticle">
         <article>
           <div id="fixedWidth"></div>
         </article>
