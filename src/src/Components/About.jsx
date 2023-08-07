@@ -89,14 +89,19 @@ function About() {
                 <div class="trashguide-list">
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
-                      alt=""
+                      src="https://drive.google.com/uc?export=view&id=1CQKqxZ644rq2FGiLbBajdXEzrCGFeFTJ"
+                      alt="Picture of Amalia Putri"
+                      style={{
+                        width: "120px",
+                        aspectRatio: "1/1",
+                        borderRadius: "100%",
+                      }}
                     />
                     <h1 class="trashguide-subtitle">Amalia Putri</h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Hi, I'm Amel. A sophomore informatics engineering student
+                      at ITB. My Hobby is playing table tennis. Feel free to
+                      contact me at amaliaputriii2104@gmail.com
                     </p>
                   </div>
                   <div class="trashguide-card">
@@ -246,9 +251,9 @@ function About() {
                     />
                     <h1 class="trashguide-subtitle">Nicolas Jeremy </h1>
                     <p>
-                      Nicolas jeremy marulitua simanjuntak biasa dipanggil NJ, dari STI-J dengan nim tpb 19622228.
-                      Hobi basket dan asal daerah dari jakarta selatan
-
+                      Nicolas jeremy marulitua simanjuntak biasa dipanggil NJ,
+                      dari STI-J dengan nim tpb 19622228. Hobi basket dan asal
+                      daerah dari jakarta selatan
                     </p>
                   </div>
                 </div>
