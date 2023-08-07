@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ReactModal from "react-modal";
+
 
 import Header from "./Header";
 import Footer from "./Footer";
@@ -182,14 +182,13 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://dti.itb.ac.id/wp-content/uploads/2020/09/logo_itb_1024.png"
+                      src="https://drive.google.com/file/d/1DQwWUireL55XWge17dLScp4SgJaeWLMM/view?usp=drivesdk"
                       alt=""
                     />
                     <h1 class="trashguide-subtitle">Wisyendra Lunarmalam </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Helloo, watashi wa Wiswis. A student at information system
+                      and technology at ITB aka best campus fr fr. 
                     </p>
                   </div>
 
