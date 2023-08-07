@@ -221,7 +221,7 @@ const TrashGuide = (props: Props) => {
           >
             <div id="header33">
               <h1 style={{ textAlign: "left" }}>
-                <b>Lorem, ipsum dolor5.</b>
+                <b>Jenis-jenis Sampah berdasarkan Klasifikasinya</b>
               </h1>
               <p
                 style={{
@@ -230,15 +230,9 @@ const TrashGuide = (props: Props) => {
                   paddingRight: "60px",
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Ratione possimus cum, quasi delectus fugiat aliquid at ipsum
-                magnam temporibus officiis. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Culpa, debitis. Lorem ipsum dolor
-                sit, amet consectetur adipisicing elit. Quaerat, enim. Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit. Quasi, eum?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-                deleniti maiores veniam nihil, harum minus dicta minima
-                perferendis consequuntur necessitatibus!
+                Sampah bisa berasal dari mana saja selama terdapat aktivitas kehidupan di daerah tersebut. 
+                Sampah bisa berasal dari rumah tangga, pasar, jalanan, fasilitas umum (terminal, stasiun, bandara), dan lain sebagainya. 
+                Sampah dapat diklasifikasikan atau dikelompokkan menjadi beberapa jenis, yaitu sampah berdasarkan jenisnya, sampah berdasarkan sumbernya, sampah berdasarkan bentuknya, dan sampah berdasarkan sifat-sifat biologis.
                 <br />
                 <br />
                 <BoxLink to="/Article5">Read More</BoxLink>
