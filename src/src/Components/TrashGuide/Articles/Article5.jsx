@@ -3,6 +3,21 @@ import { Switch, Route } from 'react-router-dom';
 import {Link} from 'react-router';
 import Header from '../.././Header';
 import Footer from '../.././Footer';
+import styled from "styled-components";
+
+const BoxLink = styled(Link)`
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #ddd;
+  }
+`;
 
 type Props = {}
 
@@ -22,7 +37,7 @@ const article5 = (props: Props) => {
             </div>
 
           <div id="header32">
-              <p id="desc1">
+              <p id="descib5">
               Sampah bisa berasal dari mana saja selama terdapat aktivitas kehidupan di daerah tersebut. 
               Sampah bisa berasal dari rumah tangga, pasar, jalanan, fasilitas umum (terminal, stasiun, bandara), dan lain sebagainya. 
               Sampah dapat diklasifikasikan atau dikelompokkan menjadi beberapa jenis, yaitu sampah berdasarkan jenisnya, sampah berdasarkan sumbernya, sampah berdasarkan bentuknya, dan sampah berdasarkan sifat-sifat biologis.
@@ -102,6 +117,9 @@ const article5 = (props: Props) => {
               <br />
               <br />
               Contoh sampah yang tidak dapat membusuk adalah plastik, kertas, gelas, logam, dan kaca.
+              <br />
+              <br />
+              <BoxLink to="/article">Back</BoxLink>
               </p>
             </div>
           </div>

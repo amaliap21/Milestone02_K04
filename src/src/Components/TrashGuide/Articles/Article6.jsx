@@ -3,7 +3,21 @@ import { Switch, Route } from 'react-router-dom';
 import {Link} from 'react-router';
 import Header from '../.././Header';
 import Footer from '../.././Footer';
+import styled from "styled-components";
 
+const BoxLink = styled(Link)`
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #ddd;
+  }
+`;
 type Props = {}
 
 const article6 = (props: Props) => {
@@ -22,7 +36,7 @@ const article6 = (props: Props) => {
             </div>
 
           <div id="header32">
-              <p id="desc1">
+              <p id="descib3">
               Sampah seolah selalu jadi masalah tahunan bagi Kota Bandung. Terbaru, ada 30 TPS 
               yang dinyatakan overcapacity oleh Pemkot Bandung. Tak jarang masyarakat mengunggah 
               video betapa sampah menggunung di TPS hingga ke bahu jalan.
@@ -116,6 +130,9 @@ const article6 = (props: Props) => {
               pendamping yang terus lakukan sosialisasi. Tapi faktanya di lapangan perlu 
               peran serta aktif dari masyarakat. Kalau masyarakat belum bergerak, ya ini 
               problemnya di situ. Iya mulai Minggu kita bakal keliling ke enam SWK," ujar Dudy.
+              <br />
+              <br />
+              <BoxLink to="/article">Back</BoxLink>
               </p>
             </div>
           </div>
