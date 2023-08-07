@@ -263,7 +263,7 @@ section:nth-of-type(2) {
 }
 #headerImgEwaste > div:nth-of-type(1) {
   background: url(../Images/ElectronicsBack.png) no-repeat fixed;
-  background-size: 100%  ;
+  background-size: 100%;
   margin: 0;
   height: 500px;
   position: absolute;
@@ -1286,7 +1286,6 @@ h2 span {
   padding: 0;
   font-size: 20;
   margin: 0;
- 
 }
 
 #cssmenu.align-right ul li {
@@ -1314,7 +1313,6 @@ h2 span {
   transition: color 0.25s;
   line-height: 140%;
   letter-spacing: -1px;
-  
 }
 
 #cssmenu ul li a:hover {
@@ -1461,7 +1459,7 @@ h2 span {
   margin: 0 20px;
   display: flex;
   flex-direction: row;
-  height: 100px ;
+  height: 100px;
   font-family: RalewayBlk;
 }
 
@@ -1470,18 +1468,9 @@ h2 span {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.TPS{
-  margin-left: 100px;
-}
-
 @media (max-width: 768px) {
   /* For screens with a maximum width of 768px or smaller */
   #headerImgUs > div:nth-of-type(1) {
     background-size: contain;
   }
 }
-
-
-
-
-
