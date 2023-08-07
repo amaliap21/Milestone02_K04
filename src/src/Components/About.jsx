@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 import Header from "./Header";
 import Footer from "./Footer";
 import Logo from "../Images/Recycle_Ontario.png";
@@ -164,7 +163,7 @@ function About() {
                   </div>
                   <div class="trashguide-card">
                     <img
-                      src="https://drive.google.com/uc?export=view&id=1Es5hdhP1ZyZ5G2M0-paaFvJoBC_XYmbM"
+                      src="https://drive.google.com/uc?export=view&id=1LpSAZwWiQu5NM_8e7RMKXqJd2yTAbiLo"
                       alt="Picture of Nyoman Ganadipa Narayana"
                       style={{
                         width: "120px",
@@ -247,9 +246,9 @@ function About() {
                     />
                     <h1 class="trashguide-subtitle">Nicolas Jeremy </h1>
                     <p>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
-                      sit amet. Lorem ipsum dolor sit amet.
+                      Nicolas jeremy marulitua simanjuntak biasa dipanggil NJ, dari STI-J dengan nim tpb 19622228.
+                      Hobi basket dan asal daerah dari jakarta selatan
+
                     </p>
                   </div>
                 </div>
