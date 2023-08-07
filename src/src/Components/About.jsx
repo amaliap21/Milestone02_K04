@@ -198,9 +198,9 @@ function About() {
                     />
                     <h1 class="trashguide-subtitle">Timothy Haposan</h1>
                     <p>
-                      Hi, I'm Timo. A sophomore informatics engineering student
-                      at ITB. My Hobby is design and art. Feel free to contact
-                      me at timothyhapsim@gmail.com
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptates, ex. Lorem ipsum, dolor sit Lorem ipsum dolor
+                      sit amet. Lorem ipsum dolor sit amet.
                     </p>
                   </div>
                   <div class="trashguide-card">
