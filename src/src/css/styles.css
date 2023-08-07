@@ -253,7 +253,7 @@ section:nth-of-type(2) {
 }
 #headerImgEwaste > div:nth-of-type(1) {
   background: url(../Images/ElectronicsBack.png) no-repeat fixed;
-  background-size: 100%;
+  background-size: 100%  ;
   margin: 0;
   height: 500px;
   position: absolute;
@@ -279,6 +279,17 @@ section:nth-of-type(2) {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+}
+
+#headerImgUs > div:nth-of-type(1) {
+  background: url(../Images/us.jpg) no-repeat fixed;
+  background-size: 100% 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 2000px;
   width: 100%;
 }
 
@@ -315,7 +326,7 @@ section article {
 }
 
 .parallax-item {
-  position: absolute;
+  position: relative;
   z-index: 5;
   top: 40px;
   left: 400px;
@@ -423,7 +434,7 @@ tr.classname {
 }
 
 #header {
-  background-color: #f7f7f7;
+  background-color: #23c686;
   width: 100%;
   position: fixed;
   box-shadow: 0px 3px 10px 4px #5c5c5c;
@@ -436,9 +447,8 @@ tr.classname {
   /*    padding-left: 20px;*/
   width: 324px;
   height: 108px;
-  float: left;
   display: inline-block;
-  color: #ffffff;
+  color: #261c1c;
 }
 
 #logodiv2 {
@@ -464,7 +474,7 @@ tr.classname {
   padding-right: 0px;
   position: fixed;
   float: left;
-  background-color: #f7f7f7;
+  background-color: #23c686;
   width: 300px;
   height: 108px;
   z-index: -1;
@@ -511,6 +521,12 @@ tr.classname {
 }
 
 #fixedWidth {
+  min-width: 1000px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+#fixedWidthUs {
   min-width: 1000px;
   margin: 0 auto;
   width: 1000px;
@@ -591,6 +607,7 @@ h2 span {
   width: 100%;
   height: 4000px;
   background-color: #ffffff;
+  margin-top: 0;
   font-style: FuturaKoya, Sans-Serif;
   font-size: 0;
   position: relative;
@@ -1218,7 +1235,8 @@ h2 span {
 
 #cssmenu {
   padding-top: 30px;
-  background: #f7f7f7;
+  background: #23c686;
+  color: #000000;
   float: right;
   z-index: 100;
   font-family: RalewayReg;
@@ -1247,6 +1265,7 @@ h2 span {
   padding: 0;
   font-size: 20;
   margin: 0;
+ 
 }
 
 #cssmenu.align-right ul li {
@@ -1258,7 +1277,7 @@ h2 span {
 }
 
 #cssmenu ul li a {
-  color: #9b9a9a;
+  color: #fbfcf6;
   text-decoration: none;
   display: block;
   padding: 16px 17px;
@@ -1274,10 +1293,11 @@ h2 span {
   transition: color 0.25s;
   line-height: 140%;
   letter-spacing: -1px;
+  
 }
 
 #cssmenu ul li a:hover {
-  color: #151515;
+  color: #fbfcf6;
 }
 
 #Gallery:hover {
@@ -1300,7 +1320,7 @@ h2 span {
   top: 19px;
   height: 6px;
   width: 6px;
-  background: #151515;
+  background: #fbfcf6;
   opacity: 0.5;
 }
 
@@ -1312,7 +1332,7 @@ h2 span {
   bottom: 0;
   height: 3px;
   width: 0;
-  background: #151515;
+  background: #fbfcf6;
   -webkit-transition: width 0.25s;
   -moz-transition: width 0.25s;
   -ms-transition: width 0.25s;
@@ -1326,7 +1346,7 @@ h2 span {
 }
 
 #cssmenu ul li.active a {
-  color: #151515;
+  color: #fbfcf6;
 }
 
 #cssmenu ul li.active a:before {
@@ -1422,4 +1442,8 @@ h2 span {
 #TPS-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.TPS{
+  margin-left: 100px;
 }

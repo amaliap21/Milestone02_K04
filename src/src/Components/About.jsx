@@ -19,7 +19,25 @@ function About() {
   return (
     <div>
       <Header page={4} />
-      <div id="overviewAbout" style={{ paddingTop: "100px" }}>
+      <section id="headerImgUs">
+        <article>
+          <div id="fixedWidth"></div>
+        </article>
+
+        <div className="parallax" data-velocity="-.3"></div>
+        <div className="parallax" data-velocity="-.2" data-fit="525">
+          <div id="fixedWidthUs">
+            <div id="window">
+              <div id="textWindow">
+                <h1> About Us</h1>
+                <h1> </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="overviewAbout" style={{ paddingTop: "50px" }}>
         <div id="headerFill2"></div>
 
         <div id="fixedWidth">

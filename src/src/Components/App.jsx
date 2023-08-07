@@ -11,7 +11,7 @@ import {
 // import { Switch, Route } from 'react-router-dom';
 
 import Home from "./Home";
-import TrashGuide from "./TrashGuide";
+import Article from "./Article";
 import LocateUs from "./LocateUs";
 import Reward from "./Reward";
 import About from "./About";
@@ -50,7 +50,7 @@ class App extends Component {
 
         <Route path="/" component={Home} />
         <Route path="/locateus" component={LocateUs} />
-        <Route path="/trashguide" component={TrashGuide} />
+        <Route path="/article" component={Article} />
         <Route path="/Reward" component={Reward} />
         <Route path="/about" component={About} />
         <Route path="/terms_privacy" component={Terms} />
